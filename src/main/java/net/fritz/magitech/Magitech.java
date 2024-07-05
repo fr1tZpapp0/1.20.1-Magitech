@@ -18,7 +18,7 @@ import org.slf4j.Logger;
 @Mod(Magitech.MOD_ID)
 public class Magitech {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "net";
+    public static final String MOD_ID = "magitech";
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
