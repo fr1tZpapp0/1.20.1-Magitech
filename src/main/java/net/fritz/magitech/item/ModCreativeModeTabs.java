@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_TIN.get());
                         output.accept(ModItems.TIN_INGOT.get());
                         output.accept(ModItems.BRONZE_BLEND.get());
+                        output.accept(ModItems.BRONZE_INGOT.get());
                     }).build());
 
 
