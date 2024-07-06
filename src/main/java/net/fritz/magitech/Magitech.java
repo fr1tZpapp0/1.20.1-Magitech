@@ -1,6 +1,8 @@
 package net.fritz.magitech;
 
 import com.mojang.logging.LogUtils;
+import net.fritz.magitech.item.ModCreativeModeTabs;
+import net.fritz.magitech.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -28,6 +30,10 @@ public class Magitech {
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
 
 
         MinecraftForge.EVENT_BUS.register(this);
