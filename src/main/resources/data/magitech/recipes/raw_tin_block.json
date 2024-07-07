@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "magitech:raw_tin"
+    }
+  },
+  "result": {
+    "item": "magitech:raw_tin_block"
+  }
+}

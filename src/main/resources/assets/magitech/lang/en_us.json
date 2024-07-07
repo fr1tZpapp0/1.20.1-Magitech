@@ -5,6 +5,15 @@
   "item.magitech.bronze_ingot": "Bronze Ingot",
   "item.magitech.steel_ingot": "Steel Ingot",
 
+  "item.magitech.uranium": "Uranium",
+  "block.magitech.uranium_block": "Block of Uranium",
+
+
+  "item.magitech.wire_spool": "Spool of Wire",
+  "item.magitech.rubber": "Rubber",
+
+
+
   "item.magitech.tin_plate": "Tin Plate",
   "item.magitech.bronze_plate": "Bronze Plate",
   "item.magitech.steel_plate": "Steel Plate",

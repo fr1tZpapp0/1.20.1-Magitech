@@ -24,6 +24,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BRONZE_INGOT.get());
                         output.accept(ModItems.STEEL_INGOT.get());
 
+                        output.accept(ModItems.URANIUM.get());
+                        output.accept(ModBlocks.URANIUM_BLOCK.get());
+
+                        output.accept(ModItems.WIRE_SPOOL.get());
+                        output.accept(ModItems.RUBBER.get());
+
                         output.accept(ModItems.TIN_PLATE.get());
                         output.accept(ModItems.BRONZE_PLATE.get());
                         output.accept(ModItems.STEEL_PLATE.get());

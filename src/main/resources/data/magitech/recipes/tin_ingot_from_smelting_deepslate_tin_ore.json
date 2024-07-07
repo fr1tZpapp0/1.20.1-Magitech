@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "tin",
+  "ingredient": {
+    "item": "magitech:deepslate_tin_ore"
+  },
+  "result": "magitech:tin_ingot"
+}
