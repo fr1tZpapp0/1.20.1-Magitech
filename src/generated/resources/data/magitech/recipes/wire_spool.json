@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:copper_ingot"
+    },
+    "B": {
+      "item": "magitech:rubber"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "result": {
+    "count": 3,
+    "item": "magitech:wire_spool"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "bronze",
+  "ingredient": {
+    "item": "magitech:bronze_blend"
+  },
+  "result": "magitech:bronze_ingot"
+}

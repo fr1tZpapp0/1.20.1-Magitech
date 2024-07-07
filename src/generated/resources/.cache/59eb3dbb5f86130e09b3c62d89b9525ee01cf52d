@@ -1,0 +1,8 @@
+// 1.20.1	2024-07-07T02:28:05.1446904	Loot Tables
+e6eb18e6a9131be99b9637f00271b20e13a04b34 data/magitech/loot_tables/blocks/bronze_block.json
+28832cb6b186c07519e3e7d2e6f5454857ca626d data/magitech/loot_tables/blocks/deepslate_tin_ore.json
+3136617fd0c7431a20935b4c4383607ba3f159ae data/magitech/loot_tables/blocks/raw_tin_block.json
+59301dce0856e2c56fd513d100582a20272e6cc8 data/magitech/loot_tables/blocks/steel_block.json
+aca71b5c909fce1a4b4be43116bd888f00bcda84 data/magitech/loot_tables/blocks/tin_block.json
+3dee1a245f4cfc3631eedf489b41754a91ed7030 data/magitech/loot_tables/blocks/tin_ore.json
+113c27afa46a7ef48e2b85a5f2ece610969e6fbe data/magitech/loot_tables/blocks/uranium_block.json
