@@ -1,6 +1,7 @@
 package net.fritz.magitech;
 
 import com.mojang.logging.LogUtils;
+import net.fritz.magitech.block.ModBlocks;
 import net.fritz.magitech.item.ModCreativeModeTabs;
 import net.fritz.magitech.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,7 @@ public class Magitech {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         MinecraftForge.EVENT_BUS.register(this);

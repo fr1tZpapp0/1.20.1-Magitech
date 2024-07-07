@@ -1,6 +1,7 @@
 package net.fritz.magitech.item;
 
 import net.fritz.magitech.Magitech;
+import net.fritz.magitech.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,10 +17,28 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BRONZE_BLEND.get()))
                     .title(Component.translatable("creativetab.magitech_tab"))
                     .displayItems((parameters, output) -> {
+
                         output.accept(ModItems.RAW_TIN.get());
                         output.accept(ModItems.TIN_INGOT.get());
                         output.accept(ModItems.BRONZE_BLEND.get());
                         output.accept(ModItems.BRONZE_INGOT.get());
+                        output.accept(ModItems.STEEL_INGOT.get());
+
+                        output.accept(ModItems.TIN_PLATE.get());
+                        output.accept(ModItems.BRONZE_PLATE.get());
+                        output.accept(ModItems.STEEL_PLATE.get());
+                        output.accept(ModItems.IRON_PLATE.get());
+                        output.accept(ModItems.GOLD_PLATE.get());
+                        output.accept(ModItems.DIAMOND_PLATE.get());
+                        output.accept(ModItems.NETHERITE_PLATE.get());
+
+                        output.accept(ModBlocks.STEEL_BLOCK.get());
+                        output.accept(ModBlocks.BRONZE_BLOCK.get());
+                        output.accept(ModBlocks.TIN_BLOCK.get());
+                        output.accept(ModBlocks.RAW_TIN_BLOCK.get());
+                        output.accept(ModBlocks.TIN_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_TIN_ORE.get());
+
                     }).build());
 
 

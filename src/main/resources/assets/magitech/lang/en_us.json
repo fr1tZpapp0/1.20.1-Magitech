@@ -3,6 +3,22 @@
   "item.magitech.tin_ingot": "Tin Ingot",
   "item.magitech.bronze_blend": "Bronze Blend",
   "item.magitech.bronze_ingot": "Bronze Ingot",
+  "item.magitech.steel_ingot": "Steel Ingot",
+
+  "item.magitech.tin_plate": "Tin Plate",
+  "item.magitech.bronze_plate": "Bronze Plate",
+  "item.magitech.steel_plate": "Steel Plate",
+  "item.magitech.iron_plate": "Iron Plate",
+  "item.magitech.gold_plate": "Gold Plate",
+  "item.magitech.diamond_plate": "Diamond Plate",
+  "item.magitech.netherite_plate": "Netherite Plate",
+
+  "block.magitech.raw_tin_block": "Block of Raw Tin",
+  "block.magitech.tin_block": "Block of Tin",
+  "block.magitech.steel_block": "Block of Steel",
+  "block.magitech.bronze_block": "Block of Bronze",
+  "block.magitech.tin_ore": "Tin Ore",
+  "block.magitech.deepslate_tin_ore": "Deepslate Tin Ore",
 
 
   "creativetab.magitech_tab": "Magitech"
