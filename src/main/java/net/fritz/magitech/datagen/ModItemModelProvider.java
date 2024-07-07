@@ -37,6 +37,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RUBBER);
         simpleItem(ModItems.WIRE_SPOOL);
 
+        handheldItem(ModItems.STEEL_SWORD);
+        handheldItem(ModItems.STEEL_PICKAXE);
+        handheldItem(ModItems.STEEL_SHOVEL);
+        handheldItem(ModItems.STEEL_AXE);
+        handheldItem(ModItems.STEEL_HOE);
+
     }
 
 
@@ -45,7 +51,7 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .texture("layer0", new ResourceLocation(Magitech.MOD_ID, "item/" + item.getId().getPath()));
     }
 
-    private ItemModelBuilder handhelItem(RegistryObject<Item> item) {
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(), new ResourceLocation("item/handheld"))
                 .texture("layer0", new ResourceLocation(Magitech.MOD_ID, "item/" + item.getId().getPath()));
     }

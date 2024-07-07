@@ -26,7 +26,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.TIN_ORE.get(), block -> createOreDrop(ModBlocks.TIN_ORE.get(), ModItems.RAW_TIN.get()));
         this.add(ModBlocks.DEEPSLATE_TIN_ORE.get(), block -> createOreDrop(ModBlocks.DEEPSLATE_TIN_ORE.get(), ModItems.RAW_TIN.get()));
-
+        this.add(ModBlocks.NETHER_URANIUM_ORE.get(), block -> createOreDrop(ModBlocks.NETHER_URANIUM_ORE.get(), ModItems.URANIUM.get()));
     }
 
     @Override

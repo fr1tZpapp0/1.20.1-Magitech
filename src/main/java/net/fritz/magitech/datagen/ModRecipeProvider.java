@@ -26,6 +26,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     );
 
 
+
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
     }
@@ -66,6 +67,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreSmelting(consumer, List.of(ModItems.BRONZE_BLEND.get()), RecipeCategory.MISC, ModItems.BRONZE_INGOT.get(), 0.25f, 200, "bronze");
         oreBlasting(consumer, List.of(ModItems.BRONZE_BLEND.get()), RecipeCategory.MISC, ModItems.BRONZE_INGOT.get(), 0.25f, 100, "bronze");
+
+        oreSmelting(consumer, List.of(Items.SLIME_BALL), RecipeCategory.MISC, ModItems.RUBBER.get(), 0.25f, 200, "rubber");
+
+        oreSmelting(consumer, List.of(Items.IRON_INGOT), RecipeCategory.MISC, ModItems.STEEL_INGOT.get(), 0.25f, 200, "steel");
+        oreBlasting(consumer, List.of(Items.IRON_INGOT), RecipeCategory.MISC, ModItems.STEEL_INGOT.get(), 0.25f, 100, "steel");
+
+        oreSmelting(consumer, List.of(ModBlocks.NETHER_URANIUM_ORE.get()), RecipeCategory.MISC,
+                ModItems.URANIUM.get(), 0.25f, 200, "uranium");
+        oreBlasting(consumer, List.of(ModBlocks.NETHER_URANIUM_ORE.get()), RecipeCategory.MISC,
+                ModItems.URANIUM.get(), 0.25f, 100, "uranium");
+
+
+        swordCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_SWORD.get(), ModItems.STEEL_INGOT.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
+        pickaxeCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_PICKAXE.get(), ModItems.STEEL_INGOT.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
+        shovelCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_SHOVEL.get(), ModItems.STEEL_INGOT.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
+        axeCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_AXE.get(), ModItems.STEEL_INGOT.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
+        hoeCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_HOE.get(), ModItems.STEEL_INGOT.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
+
+
+
+
     }
 
 
@@ -81,6 +103,75 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(criteriaItemLike).build()))
                 .save(consumer);
     }
+
+    private static void swordCrafting(Consumer<FinishedRecipe> consumer, RecipeCategory category,
+                                   ItemLike output, ItemLike material, String criteriaName, ItemLike criteriaItemLike) {
+        ShapedRecipeBuilder.shaped(category, output)
+                .pattern("A")
+                .pattern("A")
+                .pattern("S")
+                .define('A', material)
+                .define('S', Items.STICK)
+                .unlockedBy(criteriaName, inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(criteriaItemLike).build()))
+                .save(consumer);
+    }
+
+    private static void pickaxeCrafting(Consumer<FinishedRecipe> consumer, RecipeCategory category,
+                                      ItemLike output, ItemLike material, String criteriaName, ItemLike criteriaItemLike) {
+        ShapedRecipeBuilder.shaped(category, output)
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', material)
+                .define('S', Items.STICK)
+                .unlockedBy(criteriaName, inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(criteriaItemLike).build()))
+                .save(consumer);
+    }
+
+    private static void axeCrafting(Consumer<FinishedRecipe> consumer, RecipeCategory category,
+                                      ItemLike output, ItemLike material, String criteriaName, ItemLike criteriaItemLike) {
+        ShapedRecipeBuilder.shaped(category, output)
+                .pattern("AA")
+                .pattern("AS")
+                .pattern(" S")
+                .define('A', material)
+                .define('S', Items.STICK)
+                .unlockedBy(criteriaName, inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(criteriaItemLike).build()))
+                .save(consumer);
+    }
+
+
+    private static void shovelCrafting(Consumer<FinishedRecipe> consumer, RecipeCategory category,
+                                    ItemLike output, ItemLike material, String criteriaName, ItemLike criteriaItemLike) {
+        ShapedRecipeBuilder.shaped(category, output)
+                .pattern("A")
+                .pattern("S")
+                .pattern("S")
+                .define('A', material)
+                .define('S', Items.STICK)
+                .unlockedBy(criteriaName, inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(criteriaItemLike).build()))
+                .save(consumer);
+    }
+
+    private static void hoeCrafting(Consumer<FinishedRecipe> consumer, RecipeCategory category,
+                                    ItemLike output, ItemLike material, String criteriaName, ItemLike criteriaItemLike) {
+        ShapedRecipeBuilder.shaped(category, output)
+                .pattern("AA")
+                .pattern(" S")
+                .pattern(" S")
+                .define('A', material)
+                .define('S', Items.STICK)
+                .unlockedBy(criteriaName, inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(criteriaItemLike).build()))
+                .save(consumer);
+    }
+
+
+
 
     private static void blockToNine(Consumer<FinishedRecipe> consumer, RecipeCategory category,
                                     ItemLike output, ItemLike input, String criteriaName, ItemLike criteriaItemLike) {

@@ -6,6 +6,8 @@
     "magitech:uranium_block",
     "magitech:raw_tin_block",
     "magitech:tin_ore",
-    "magitech:deepslate_tin_ore"
+    "magitech:tin_block",
+    "magitech:deepslate_tin_ore",
+    "magitech:nether_uranium_ore"
   ]
 }

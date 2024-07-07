@@ -12,7 +12,11 @@
   "item.magitech.wire_spool": "Spool of Wire",
   "item.magitech.rubber": "Rubber",
 
-
+  "item.magitech.steel_sword": "Steel Sword",
+  "item.magitech.steel_pickaxe": "Steel Pickaxe",
+  "item.magitech.steel_shovel": "Steel Shovel",
+  "item.magitech.steel_axe": "Steel Axe",
+  "item.magitech.steel_hoe": "Steel Hoe",
 
   "item.magitech.tin_plate": "Tin Plate",
   "item.magitech.bronze_plate": "Bronze Plate",
@@ -28,7 +32,7 @@
   "block.magitech.bronze_block": "Block of Bronze",
   "block.magitech.tin_ore": "Tin Ore",
   "block.magitech.deepslate_tin_ore": "Deepslate Tin Ore",
-
+  "block.magitech.nether_uranium_ore": "Netherrack Uranium Ore",
 
   "creativetab.magitech_tab": "Magitech"
 }

@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-07T02:40:49.4676055	Block Tags
-f991c3bf526bfb2fac6d1a10bc04ad78ad7e6b9f data/minecraft/tags/blocks/mineable/axe.json
-a1b881f02ae49511e874852bb23e4f36c4bb71cf data/minecraft/tags/blocks/needs_diamond_tool.json
-4138eac30dea1635c651b0706bd8e1d59d026baf data/minecraft/tags/blocks/needs_iron_tool.json
+// 1.20.1	2024-07-07T03:57:36.3085742	Block Tags
+e92d62eb8e4757bdee466a317d12336abb981f75 data/magitech/tags/blocks/needs_steel_tool.json
+ab6ea4d529f94e509df21fcfd276bd8bde56b0d3 data/minecraft/tags/blocks/mineable/pickaxe.json
+9cdd66de84a62064d4a2ff1113b6e2965f03369a data/minecraft/tags/blocks/needs_iron_tool.json
