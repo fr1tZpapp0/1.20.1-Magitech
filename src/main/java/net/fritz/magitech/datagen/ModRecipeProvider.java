@@ -69,6 +69,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(consumer, List.of(ModItems.BRONZE_BLEND.get()), RecipeCategory.MISC, ModItems.BRONZE_INGOT.get(), 0.25f, 100, "bronze");
 
         oreSmelting(consumer, List.of(Items.SLIME_BALL), RecipeCategory.MISC, ModItems.RUBBER.get(), 0.25f, 200, "rubber");
+        oreSmelting(consumer, List.of(ModItems.LATEX.get()), RecipeCategory.MISC, ModItems.RUBBER.get(), 0.25f, 200, "rubber");
 
         oreSmelting(consumer, List.of(Items.IRON_INGOT), RecipeCategory.MISC, ModItems.STEEL_INGOT.get(), 0.25f, 200, "steel");
         oreBlasting(consumer, List.of(Items.IRON_INGOT), RecipeCategory.MISC, ModItems.STEEL_INGOT.get(), 0.25f, 100, "steel");
@@ -85,6 +86,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         axeCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_AXE.get(), ModItems.STEEL_INGOT.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
         hoeCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_HOE.get(), ModItems.STEEL_INGOT.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
 
+        paxelCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_PAXEL.get(),
+                ModItems.STEEL_AXE.get(), ModItems.STEEL_SHOVEL.get(), ModItems.STEEL_PICKAXE.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
 
 
 
@@ -129,6 +132,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(criteriaItemLike).build()))
                 .save(consumer);
     }
+
+    private static void paxelCrafting(Consumer<FinishedRecipe> consumer, RecipeCategory category,
+                                        ItemLike output, ItemLike axeMat, ItemLike shovelMat, ItemLike pickaxeMat, String criteriaName, ItemLike criteriaItemLike) {
+        ShapedRecipeBuilder.shaped(category, output)
+                .pattern("ASP")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('A', axeMat)
+                .define('S', shovelMat)
+                .define('P', pickaxeMat)
+                .define('T', Items.STICK)
+                .unlockedBy(criteriaName, inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(criteriaItemLike).build()))
+                .save(consumer);
+    }
+
+
 
     private static void axeCrafting(Consumer<FinishedRecipe> consumer, RecipeCategory category,
                                       ItemLike output, ItemLike material, String criteriaName, ItemLike criteriaItemLike) {

@@ -1,16 +1,19 @@
-// 1.20.1	2024-07-07T03:51:52.0063367	Item Models: magitech
+// 1.20.1	2024-08-01T02:50:39.7672434	Item Models: magitech
 ea2f08064ace693c7c7f38353a6ae19ddb3003c6 assets/magitech/models/item/bronze_blend.json
 c1349b24326463f8530da9f0a7490e65982aa977 assets/magitech/models/item/bronze_ingot.json
 c564d9f0a57fa41777872fd6545b1e6fd72c2813 assets/magitech/models/item/bronze_plate.json
 fe9f50596968531566e60c140783eadcc1b44fb7 assets/magitech/models/item/diamond_plate.json
 56e8c3ab79da304315c2f811f1e03d7f978a910a assets/magitech/models/item/gold_plate.json
 31e9490c5b3753e7df7a827ba6d83a022aa016eb assets/magitech/models/item/iron_plate.json
+00f24305f1c4deaedaa272e031a22378f2e83279 assets/magitech/models/item/latex.json
 33ec70ad3082733182d35b1e7aa57c77823ac4e4 assets/magitech/models/item/netherite_plate.json
 680a6780dd835d5b0c7f6c6296c0fc37d5b26fbe assets/magitech/models/item/raw_tin.json
 51a9491d25b1364c814e5e8b3a18807ad70ec620 assets/magitech/models/item/rubber.json
+2809de51fdfd786998f8bf540ce2213315515abd assets/magitech/models/item/rubber_sapling.json
 7ce657cac68851f81825a9e47ef15c7543f34b6b assets/magitech/models/item/steel_axe.json
 611dd8ead2094c139993c0c91063c1533315ef7d assets/magitech/models/item/steel_hoe.json
 bd344b1628f2f80b574dde6fbff86820cd8bce74 assets/magitech/models/item/steel_ingot.json
+093d0f4b0864e2622f459bd8c8095b73d9349348 assets/magitech/models/item/steel_paxel.json
 fe760dc187cf553dc2cfc8008090df3ac7a0b7da assets/magitech/models/item/steel_pickaxe.json
 3f4104664e0c68f3d24b6799c4467218f58ed15b assets/magitech/models/item/steel_plate.json
 942cadbc9935ab493e1df43c9f3a5610115a8dea assets/magitech/models/item/steel_shovel.json

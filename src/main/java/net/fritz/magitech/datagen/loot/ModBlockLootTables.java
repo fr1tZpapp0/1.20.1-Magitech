@@ -23,6 +23,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.URANIUM_BLOCK.get());
         this.dropSelf(ModBlocks.STEEL_BLOCK.get());
         this.dropSelf(ModBlocks.BRONZE_BLOCK.get());
+        this.dropSelf(ModBlocks.OBELISK.get());
+
+        this.dropSelf(ModBlocks.RUBBER_WOOD.get());
+        this.dropSelf(ModBlocks.RUBBER_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_RUBBER_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_RUBBER_LOG.get());
+        this.dropSelf(ModBlocks.RUBBER_PLANKS.get());
+        this.dropSelf(ModBlocks.RUBBER_SAPLING.get());
+
+        this.add(ModBlocks.RUBBER_LEAVES.get(), block -> createLeavesDrops(block, ModBlocks.RUBBER_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
         this.add(ModBlocks.TIN_ORE.get(), block -> createOreDrop(ModBlocks.TIN_ORE.get(), ModItems.RAW_TIN.get()));
         this.add(ModBlocks.DEEPSLATE_TIN_ORE.get(), block -> createOreDrop(ModBlocks.DEEPSLATE_TIN_ORE.get(), ModItems.RAW_TIN.get()));

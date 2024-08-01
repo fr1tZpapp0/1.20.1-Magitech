@@ -1,6 +1,7 @@
 package net.fritz.magitech.item;
 
 import net.fritz.magitech.Magitech;
+import net.fritz.magitech.item.custom.PaxelItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,7 +30,7 @@ public class ModItems {
     public static final RegistryObject<Item> URANIUM = ITEMS.register("uranium", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WIRE_SPOOL = ITEMS.register("wire_spool", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUBBER = ITEMS.register("rubber", () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> LATEX = ITEMS.register("latex", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword",
             () -> new SwordItem(ModToolTiers.STEEL, 2, 3, new Item.Properties()));
@@ -45,6 +46,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe",
             () -> new HoeItem(ModToolTiers.STEEL, 2, 3, new Item.Properties()));
+
+    public static final RegistryObject<Item> STEEL_PAXEL = ITEMS.register("steel_paxel",
+            () -> new PaxelItem(ModToolTiers.STEEL, 2, 3, new Item.Properties()));
+
+
 
     // ===== END ITEMS =====
 

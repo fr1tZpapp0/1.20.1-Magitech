@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.URANIUM.get());
                         output.accept(ModItems.WIRE_SPOOL.get());
                         output.accept(ModItems.RUBBER.get());
+                        output.accept(ModItems.LATEX.get());
 
                         output.accept(ModItems.TIN_PLATE.get());
                         output.accept(ModItems.BRONZE_PLATE.get());
@@ -45,11 +46,22 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_TIN_ORE.get());
                         output.accept(ModBlocks.NETHER_URANIUM_ORE.get());
 
+                        output.accept(ModBlocks.OBELISK.get());
+
+                        output.accept(ModBlocks.RUBBER_LOG.get());
+                        output.accept(ModBlocks.RUBBER_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_RUBBER_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_RUBBER_WOOD.get());
+                        output.accept(ModBlocks.RUBBER_PLANKS.get());
+                        output.accept(ModBlocks.RUBBER_LEAVES.get());
+                        output.accept(ModBlocks.RUBBER_SAPLING.get());
+
                         output.accept(ModItems.STEEL_SWORD.get());
                         output.accept(ModItems.STEEL_PICKAXE.get());
                         output.accept(ModItems.STEEL_SHOVEL.get());
                         output.accept(ModItems.STEEL_AXE.get());
                         output.accept(ModItems.STEEL_HOE.get());
+                        output.accept(ModItems.STEEL_PAXEL.get());
 
                     }).build());
 

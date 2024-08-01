@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-07T03:51:52.0098374	Recipes
+// 1.20.1	2024-08-01T01:57:09.1972908	Recipes
 a7287717270531bd7a8998b47b418c6fa760a71b data/magitech/advancements/recipes/misc/bronze_blend.json
 d9f9ea3d0fe819cedf5cfcc9d47834507290684f data/magitech/advancements/recipes/misc/bronze_block.json
 facbc77f3ba6e664a24c68185c7392527d380125 data/magitech/advancements/recipes/misc/bronze_ingot.json
@@ -6,6 +6,7 @@ facbc77f3ba6e664a24c68185c7392527d380125 data/magitech/advancements/recipes/misc
 2331d4b28204fa2ba84c6a5412426c285f2f7474 data/magitech/advancements/recipes/misc/bronze_ingot_from_smelting_bronze_blend.json
 5e9609df9f7ac3033c8636c63df4889f023090f8 data/magitech/advancements/recipes/misc/raw_tin.json
 0d39ac23a98bdf3309eebd1ac27474fcbfdf5abd data/magitech/advancements/recipes/misc/raw_tin_block.json
+ead71ae095ce3cd64949dfe1a47786145982d845 data/magitech/advancements/recipes/misc/rubber_from_smelting_latex.json
 c3412c2eeab7e4a939ec49bde6d676c7612b0dec data/magitech/advancements/recipes/misc/rubber_from_smelting_slime_ball.json
 336f75b37a83e44983befda52fd16e62987a76d6 data/magitech/advancements/recipes/misc/steel_block.json
 04ea7eab177041983622d26b8cd87902b0c2ce9f data/magitech/advancements/recipes/misc/steel_ingot.json
@@ -26,6 +27,7 @@ c286a0882d9ab23137c2517e6563ef0cc3c13584 data/magitech/advancements/recipes/misc
 54be339741541b780cf8b63f48e845dc0bc52ab6 data/magitech/advancements/recipes/misc/wire_spool.json
 31ded7bed0f6bf06b99c798d7b4f6de2b6166ef2 data/magitech/advancements/recipes/tools/steel_axe.json
 3beb3c55cc267e60d8fcba48a54fc6a2e63a4642 data/magitech/advancements/recipes/tools/steel_hoe.json
+3b6085489ec84b6844d14ad5fa05deeff93d1a20 data/magitech/advancements/recipes/tools/steel_paxel.json
 351e85941fd1b7d96e9f4035cf68de0a58162fdf data/magitech/advancements/recipes/tools/steel_pickaxe.json
 9de50c5ec6f41f0db30ea1a83337fe7c2441cfb6 data/magitech/advancements/recipes/tools/steel_shovel.json
 6663b32d452e4ba3e9fc240778a979e40e2af3cb data/magitech/advancements/recipes/tools/steel_sword.json
@@ -36,6 +38,7 @@ c80615132766c31f48279e51f864bef9bbe31dba data/magitech/recipes/bronze_blend.json
 c1bae1355ad8a612c4c5a83f068f2b9ee95c1c6c data/magitech/recipes/bronze_ingot_from_smelting_bronze_blend.json
 2a0e8f018fbb74da2c73cd9cf4e81a9ae2b68577 data/magitech/recipes/raw_tin.json
 0e060e74f4d2758c1988137e67ca2eb1b74fce02 data/magitech/recipes/raw_tin_block.json
+ffbbf263db5bc2a71eb29dc49be90e284ea3962e data/magitech/recipes/rubber_from_smelting_latex.json
 cf309536d3d80f38509f88e034068841e6e36b4c data/magitech/recipes/rubber_from_smelting_slime_ball.json
 41b8ac1c9509842b6c2e41983e8dbf9aa45e1536 data/magitech/recipes/steel_axe.json
 fc1d44cf260c4a61bb07d276a5a3be0f4d1134cc data/magitech/recipes/steel_block.json
@@ -43,6 +46,7 @@ fc1d44cf260c4a61bb07d276a5a3be0f4d1134cc data/magitech/recipes/steel_block.json
 866409ce581eb7fe46d4db0245ce066ef9699374 data/magitech/recipes/steel_ingot.json
 8cefc30aa11dd905163e13a43a1f9441ad8d7f62 data/magitech/recipes/steel_ingot_from_blasting_iron_ingot.json
 4eeecb5ed99acf931370a13985664bcd1fd386a3 data/magitech/recipes/steel_ingot_from_smelting_iron_ingot.json
+3bf7bd7cca8af41a2cd87a03ec159b4e46b75021 data/magitech/recipes/steel_paxel.json
 2a52bbea77f267fecfea0c59d7c0baf04afb7826 data/magitech/recipes/steel_pickaxe.json
 1a10547760046b82224a788d3c72a73083d6873a data/magitech/recipes/steel_shovel.json
 76b5be8ff297d5de20daa9351cedeb63b6cb88ee data/magitech/recipes/steel_sword.json

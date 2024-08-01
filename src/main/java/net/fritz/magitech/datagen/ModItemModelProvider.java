@@ -1,10 +1,12 @@
 package net.fritz.magitech.datagen;
 
 import net.fritz.magitech.Magitech;
+import net.fritz.magitech.block.ModBlocks;
 import net.fritz.magitech.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -35,6 +37,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.URANIUM);
         simpleItem(ModItems.RUBBER);
+        simpleItem(ModItems.LATEX);
         simpleItem(ModItems.WIRE_SPOOL);
 
         handheldItem(ModItems.STEEL_SWORD);
@@ -42,7 +45,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.STEEL_SHOVEL);
         handheldItem(ModItems.STEEL_AXE);
         handheldItem(ModItems.STEEL_HOE);
+        handheldItem(ModItems.STEEL_PAXEL);
 
+        saplingItem(ModBlocks.RUBBER_SAPLING);
+
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(Magitech.MOD_ID, "block/" + item.getId().getPath()));
     }
 
 
