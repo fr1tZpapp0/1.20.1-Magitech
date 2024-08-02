@@ -1,4 +1,6 @@
-// 1.20.1	2024-08-01T02:50:39.7702439	Block States: magitech
+// 1.20.1	2024-08-02T00:53:08.6860108	Block States: magitech
+adb0ce6aa7a7d016b8a475f0f5484896f2d3c017 assets/magitech/blockstates/alchemical_iron_block.json
+ff6a7678a2f48223cc25214ef9ba732b3375fd31 assets/magitech/blockstates/blood_diamond_block.json
 15ee71f7799fa9b024f74ef45e6ef788eda4ab55 assets/magitech/blockstates/bronze_block.json
 fdd268f0cc46030db2b8454266e26682fa49e2f7 assets/magitech/blockstates/deepslate_tin_ore.json
 f8e52d6c12cd11e18e5d3eeaab308947957a8a2a assets/magitech/blockstates/nether_uranium_ore.json
@@ -15,6 +17,8 @@ e983253001516f8067b43d0a97e82776ceda1dd4 assets/magitech/blockstates/rubber_wood
 010328304479b79f965e7aa87d87acaeb5f17c4e assets/magitech/blockstates/tin_block.json
 22dc277f9e9d8e2d1ddff869f9557279157c6be8 assets/magitech/blockstates/tin_ore.json
 f2ab3d9bcf831824890672823b32cc60112707a9 assets/magitech/blockstates/uranium_block.json
+d6041a69e8e0957c0b21677999c1cd001fc286ee assets/magitech/models/block/alchemical_iron_block.json
+2ad036c2f579a781f5b62afa7bd09a7c8723d0c7 assets/magitech/models/block/blood_diamond_block.json
 17e1ff2e51a77f9c1cabe4865648e1ce6acfaa46 assets/magitech/models/block/bronze_block.json
 3e85b4cfe07c52ba2a98c05fab6485ffac2dce35 assets/magitech/models/block/deepslate_tin_ore.json
 61dd1de2e05d142e20537c480261e61008f15cdd assets/magitech/models/block/nether_uranium_ore.json
@@ -35,6 +39,8 @@ a4721e305a1a775a1d9366c3401744dd44b13127 assets/magitech/models/block/stripped_r
 542fe01ec559a26082cf8eb8188a8d53eac4e552 assets/magitech/models/block/tin_block.json
 8dc23da25a72aa1f6687efa6b5c60c61f8a1e8ab assets/magitech/models/block/tin_ore.json
 d4489e4d260429b09565b3aa4b0e4ee1fa3860b3 assets/magitech/models/block/uranium_block.json
+980ebea54d88c30e7482f0dacc4e64ec2c239307 assets/magitech/models/item/alchemical_iron_block.json
+607172e03b42d88a49129f34dd991ae0c7e710ca assets/magitech/models/item/blood_diamond_block.json
 75c28dbb63af6654b3b0e0365fa87affa8a9f1bf assets/magitech/models/item/bronze_block.json
 45d466a602baa1a9666c1b81fe08aeb0b2a420e7 assets/magitech/models/item/deepslate_tin_ore.json
 7f8dacc152835376a94523c52d48aa217b4196b8 assets/magitech/models/item/nether_uranium_ore.json

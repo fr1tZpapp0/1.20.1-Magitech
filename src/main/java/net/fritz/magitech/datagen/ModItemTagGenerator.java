@@ -23,11 +23,12 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         // ADD  TAGS HERE
         // tag(ModTags.)
 
-        this.tag(ItemTags.LOGS_THAT_BURN)
-                .add(ModBlocks.RUBBER_LOG.get().asItem())
-                .add(ModBlocks.RUBBER_WOOD.get().asItem())
-                .add(ModBlocks.STRIPPED_RUBBER_LOG.get().asItem())
-                .add(ModBlocks.STRIPPED_RUBBER_WOOD.get().asItem());
+        this.tag(ItemTags.LOGS_THAT_BURN).add(
+                ModBlocks.RUBBER_LOG.get().asItem(),
+                ModBlocks.RUBBER_WOOD.get().asItem(),
+                ModBlocks.STRIPPED_RUBBER_LOG.get().asItem(),
+                ModBlocks.STRIPPED_RUBBER_WOOD.get().asItem()
+    );
 
         this.tag(ItemTags.PLANKS)
                 .add(ModBlocks.RUBBER_PLANKS.get().asItem());

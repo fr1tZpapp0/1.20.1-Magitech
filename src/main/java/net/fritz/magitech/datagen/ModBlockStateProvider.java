@@ -28,6 +28,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DEEPSLATE_TIN_ORE);
         blockWithItem(ModBlocks.NETHER_URANIUM_ORE);
         blockWithItem(ModBlocks.OBELISK);
+        blockWithItem(ModBlocks.ALCHEMICAL_IRON_BLOCK);
+        blockWithItem(ModBlocks.BLOOD_DIAMOND_BLOCK);
 
         logBlock(((RotatedPillarBlock) ModBlocks.RUBBER_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.RUBBER_WOOD.get()), blockTexture(ModBlocks.RUBBER_LOG.get()), blockTexture(ModBlocks.RUBBER_LOG.get()));

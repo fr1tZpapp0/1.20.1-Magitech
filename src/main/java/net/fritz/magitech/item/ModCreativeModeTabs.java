@@ -47,6 +47,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.NETHER_URANIUM_ORE.get());
 
                         output.accept(ModBlocks.OBELISK.get());
+                        output.accept(ModItems.ALCHEMICAL_IRON_INGOT.get());
+                        output.accept(ModItems.BLOOD_DIAMOND.get());
+                        output.accept(ModItems.BASIC_ESSENCE_ORB.get());
+                        output.accept(ModItems.ENHANCED_ESSENCE_ORB.get());
+                        output.accept(ModItems.ADVANCED_ESSENCE_ORB.get());
+                        output.accept(ModItems.MASTER_ESSENCE_ORB.get());
+                        output.accept(ModItems.ELDRITCH_ESSENCE_ORB.get());
+                        output.accept(ModBlocks.BLOOD_DIAMOND_BLOCK.get());
+                        output.accept(ModBlocks.ALCHEMICAL_IRON_BLOCK.get());
+
+
+
 
                         output.accept(ModBlocks.RUBBER_LOG.get());
                         output.accept(ModBlocks.RUBBER_WOOD.get());
@@ -62,6 +74,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STEEL_AXE.get());
                         output.accept(ModItems.STEEL_HOE.get());
                         output.accept(ModItems.STEEL_PAXEL.get());
+
+                        output.accept(ModItems.DIAMOND_PAXEL.get());
+                        output.accept(ModItems.GOLD_PAXEL.get());
+                        output.accept(ModItems.IRON_PAXEL.get());
+
+
+                        output.accept(ModItems.TREE_TAP.get());
 
                     }).build());
 

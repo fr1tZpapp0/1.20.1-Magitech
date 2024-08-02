@@ -23,7 +23,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.URANIUM_BLOCK.get());
         this.dropSelf(ModBlocks.STEEL_BLOCK.get());
         this.dropSelf(ModBlocks.BRONZE_BLOCK.get());
+
         this.dropSelf(ModBlocks.OBELISK.get());
+        this.dropSelf(ModBlocks.ALCHEMICAL_IRON_BLOCK.get());
+        this.dropSelf(ModBlocks.BLOOD_DIAMOND_BLOCK.get());
 
         this.dropSelf(ModBlocks.RUBBER_WOOD.get());
         this.dropSelf(ModBlocks.RUBBER_LOG.get());

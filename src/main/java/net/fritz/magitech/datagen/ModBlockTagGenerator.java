@@ -33,7 +33,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.TIN_BLOCK.get(),
                 ModBlocks.DEEPSLATE_TIN_ORE.get(),
                 ModBlocks.NETHER_URANIUM_ORE.get(),
-                ModBlocks.OBELISK.get()
+
+                ModBlocks.OBELISK.get(),
+                ModBlocks.ALCHEMICAL_IRON_BLOCK.get(),
+                ModBlocks.BLOOD_DIAMOND_BLOCK.get()
         );
 
         this.tag(BlockTags.NEEDS_IRON_TOOL).add(
@@ -43,7 +46,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.RAW_TIN_BLOCK.get(),
                 ModBlocks.TIN_BLOCK.get(),
                 ModBlocks.TIN_ORE.get(),
-                ModBlocks.DEEPSLATE_TIN_ORE.get()
+                ModBlocks.DEEPSLATE_TIN_ORE.get(),
+                ModBlocks.ALCHEMICAL_IRON_BLOCK.get()
         );
 
         this.tag(ModTags.Blocks.PAXEL_MINEABLE).addTags(
@@ -57,17 +61,21 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         );
 
 
-        this.tag(BlockTags.LOGS_THAT_BURN)
-                .add(ModBlocks.RUBBER_LOG.get())
-                .add(ModBlocks.RUBBER_WOOD.get())
-                .add(ModBlocks.STRIPPED_RUBBER_LOG.get())
-                .add(ModBlocks.STRIPPED_RUBBER_WOOD.get());
+        this.tag(BlockTags.LOGS_THAT_BURN).add(
+                ModBlocks.RUBBER_LOG.get(),
+                ModBlocks.RUBBER_WOOD.get(),
+                ModBlocks.STRIPPED_RUBBER_LOG.get(),
+                ModBlocks.STRIPPED_RUBBER_WOOD.get()
+                );
 
         this.tag(BlockTags.PLANKS)
                 .add(ModBlocks.RUBBER_PLANKS.get());
 
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ModBlocks.OBELISK.get());
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(
+                ModBlocks.OBELISK.get(),
+                ModBlocks.BLOOD_DIAMOND_BLOCK.get()
+        );
 
 
     }

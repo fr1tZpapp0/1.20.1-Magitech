@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magitech:alchemical_iron_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "magitech:alchemical_iron_ingot"
+  }
+}

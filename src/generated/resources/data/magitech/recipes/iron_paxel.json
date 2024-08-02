@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_axe"
+    },
+    "P": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:iron_shovel"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "ASP",
+    " T ",
+    " T "
+  ],
+  "result": {
+    "item": "magitech:iron_paxel"
+  },
+  "show_notification": true
+}

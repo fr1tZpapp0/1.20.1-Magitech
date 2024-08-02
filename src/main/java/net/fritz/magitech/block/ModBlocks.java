@@ -26,7 +26,9 @@ public class ModBlocks {
 
     // ===== BEGIN BLOCKS =====
 
-    public static final RegistryObject<Block> RAW_TIN_BLOCK = registerBlock("raw_tin_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
+    public static final RegistryObject<Block> RAW_TIN_BLOCK = registerBlock("raw_tin_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
+
     public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
@@ -34,10 +36,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> URANIUM_BLOCK = registerBlock("uranium_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> OBELISK = registerBlock("obelisk", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> ALCHEMICAL_IRON_BLOCK = registerBlock("alchemical_iron_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
+    public static final RegistryObject<Block> BLOOD_DIAMOND_BLOCK = registerBlock("blood_diamond_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
-    public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
+    public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
 
     public static final RegistryObject<Block> NETHER_URANIUM_ORE = registerBlock("nether_uranium_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));

@@ -40,12 +40,29 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.LATEX);
         simpleItem(ModItems.WIRE_SPOOL);
 
+        simpleItem(ModItems.ALCHEMICAL_IRON_INGOT);
+        simpleItem(ModItems.BLOOD_DIAMOND);
+        simpleItem(ModItems.BASIC_ESSENCE_ORB);
+        simpleItem(ModItems.ENHANCED_ESSENCE_ORB);
+        simpleItem(ModItems.ADVANCED_ESSENCE_ORB);
+        simpleItem(ModItems.MASTER_ESSENCE_ORB);
+        simpleItem(ModItems.ELDRITCH_ESSENCE_ORB);
+
+
+        simpleItem(ModItems.TREE_TAP);
+
         handheldItem(ModItems.STEEL_SWORD);
         handheldItem(ModItems.STEEL_PICKAXE);
         handheldItem(ModItems.STEEL_SHOVEL);
         handheldItem(ModItems.STEEL_AXE);
         handheldItem(ModItems.STEEL_HOE);
         handheldItem(ModItems.STEEL_PAXEL);
+
+        handheldItem(ModItems.DIAMOND_PAXEL);
+        handheldItem(ModItems.GOLD_PAXEL);
+        handheldItem(ModItems.IRON_PAXEL);
+
+
 
         saplingItem(ModBlocks.RUBBER_SAPLING);
 

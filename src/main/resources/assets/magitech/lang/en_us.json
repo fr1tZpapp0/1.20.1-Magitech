@@ -20,6 +20,14 @@
   "item.magitech.steel_hoe": "Steel Hoe",
   "item.magitech.steel_paxel": "Steel Paxel",
 
+
+  "item.magitech.diamond_paxel": "Diamond Paxel",
+  "item.magitech.gold_paxel": "Golden Paxel",
+  "item.magitech.iron_paxel": "Iron Paxel",
+
+
+  "item.magitech.tree_tap": "Tree Tap",
+
   "item.magitech.tin_plate": "Tin Plate",
   "item.magitech.bronze_plate": "Bronze Plate",
   "item.magitech.steel_plate": "Steel Plate",
@@ -37,10 +45,20 @@
   "block.magitech.nether_uranium_ore": "Netherrack Uranium Ore",
 
   "block.magitech.obelisk": "Obelisk",
+  "block.magitech.alchemical_iron_block": "Block of Alchemical Iron",
+  "block.magitech.blood_diamond_block": "Block of Blood Diamonds",
+
+  "item.magitech.blood_diamond": "Blood Infused Diamond",
+  "item.magitech.alchemical_iron_ingot": "Alchemical Iron Ingot",
+  "item.magitech.basic_essence_orb": "Basic Essence Orb",
+  "item.magitech.enhanced_essence_orb": "Enhanced Essence Orb",
+  "item.magitech.advanced_essence_orb": "Advanced Essence Orb",
+  "item.magitech.master_essence_orb": "Master Essence Orb",
+  "item.magitech.eldritch_essence_orb": "Eldritch Essence Orb",
 
 
   "block.magitech.rubber_log": "Rubber Log",
-  "block.magitech.rubber_wood": "Rubber Log",
+  "block.magitech.rubber_wood": "Rubber Wood",
   "block.magitech.stripped_rubber_log": "Stripped Rubber Log",
   "block.magitech.stripped_rubber_wood": "Stripped Rubber Wood",
   "block.magitech.rubber_planks": "Rubber Planks",

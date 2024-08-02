@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magitech:tree_tap"
+    },
+    {
+      "item": "magitech:rubber_log"
+    }
+  ],
+  "result": {
+    "item": "magitech:latex"
+  }
+}

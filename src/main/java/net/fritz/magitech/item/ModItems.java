@@ -2,7 +2,9 @@ package net.fritz.magitech.item;
 
 import net.fritz.magitech.Magitech;
 import net.fritz.magitech.item.custom.PaxelItem;
+import net.fritz.magitech.item.custom.tapItem;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -32,6 +34,9 @@ public class ModItems {
     public static final RegistryObject<Item> RUBBER = ITEMS.register("rubber", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LATEX = ITEMS.register("latex", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> TREE_TAP = ITEMS.register("tree_tap",
+            () -> new tapItem(new Item.Properties().defaultDurability(623)));
+
     public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword",
             () -> new SwordItem(ModToolTiers.STEEL, 2, 3, new Item.Properties()));
 
@@ -47,8 +52,30 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe",
             () -> new HoeItem(ModToolTiers.STEEL, 2, 3, new Item.Properties()));
 
+
     public static final RegistryObject<Item> STEEL_PAXEL = ITEMS.register("steel_paxel",
             () -> new PaxelItem(ModToolTiers.STEEL, 2, 3, new Item.Properties()));
+
+    public static final RegistryObject<Item> DIAMOND_PAXEL = ITEMS.register("diamond_paxel",
+            () -> new PaxelItem(Tiers.DIAMOND, 2, 3, new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLD_PAXEL = ITEMS.register("gold_paxel",
+            () -> new PaxelItem(Tiers.GOLD, 2, 3, new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_PAXEL = ITEMS.register("iron_paxel",
+            () -> new PaxelItem(Tiers.IRON, 2, 3, new Item.Properties()));
+
+
+
+    // MAGICAL ITEMS
+    public static final RegistryObject<Item> ALCHEMICAL_IRON_INGOT = ITEMS.register("alchemical_iron_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLOOD_DIAMOND = ITEMS.register("blood_diamond", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BASIC_ESSENCE_ORB = ITEMS.register("basic_essence_orb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ENHANCED_ESSENCE_ORB = ITEMS.register("enhanced_essence_orb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ADVANCED_ESSENCE_ORB = ITEMS.register("advanced_essence_orb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MASTER_ESSENCE_ORB = ITEMS.register("master_essence_orb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELDRITCH_ESSENCE_ORB = ITEMS.register("eldritch_essence_orb", () -> new Item(new Item.Properties()));
 
 
 

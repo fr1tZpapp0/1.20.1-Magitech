@@ -3,9 +3,11 @@ package net.fritz.magitech.datagen;
 import net.fritz.magitech.Magitech;
 import net.fritz.magitech.block.ModBlocks;
 import net.fritz.magitech.item.ModItems;
+import net.fritz.magitech.util.ModTags;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -23,6 +25,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             ModItems.RAW_TIN.get(),
             ModBlocks.TIN_ORE.get(),
             ModBlocks.DEEPSLATE_TIN_ORE.get()
+    );
+
+    private static final List<ItemLike> RUBBER_TO_LATEX = List.of(
+            ModBlocks.RUBBER_LOG.get(),
+            ModBlocks.RUBBER_WOOD.get()
     );
 
 
@@ -43,6 +50,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.TIN_INGOT.get()).build()))
                 .save(consumer);
 
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TREE_TAP.get())
+                        .pattern(" P ")
+                        .pattern("PPP")
+                        .pattern("P  ")
+                        .define('P', ItemTags.PLANKS)
+                        .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                                .of(ItemTags.PLANKS).build()))
+                        .save(consumer);
+
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BRONZE_BLEND.get())
                 .requires(ModItems.RAW_TIN.get())
                 .requires(Items.RAW_COPPER)
@@ -50,17 +68,35 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.RAW_COPPER).build()))
                 .save(consumer);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.LATEX.get())
+                .requires(ModItems.TREE_TAP.get())
+                .requires(ModBlocks.RUBBER_LOG.get())
+                .unlockedBy("has_tree_tap", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.TREE_TAP.get()).build()))
+                .save(consumer);
+
+
         nineToBlock(consumer, RecipeCategory.MISC, ModBlocks.TIN_BLOCK.get(), ModItems.TIN_INGOT.get(), "has_tin_ingot", ModItems.TIN_INGOT.get());
         nineToBlock(consumer, RecipeCategory.MISC, ModBlocks.STEEL_BLOCK.get(), ModItems.STEEL_INGOT.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
         nineToBlock(consumer, RecipeCategory.MISC, ModBlocks.URANIUM_BLOCK.get(), ModItems.URANIUM.get(), "has_uranium", ModItems.URANIUM.get());
         nineToBlock(consumer, RecipeCategory.MISC, ModBlocks.BRONZE_BLOCK.get(), ModItems.BRONZE_INGOT.get(), "has_bronze_ingot", ModItems.BRONZE_INGOT.get());
         nineToBlock(consumer, RecipeCategory.MISC, ModBlocks.RAW_TIN_BLOCK.get(), ModItems.RAW_TIN.get(), "has_raw_tin", ModItems.RAW_TIN.get());
+        nineToBlock(consumer, RecipeCategory.MISC, ModBlocks.ALCHEMICAL_IRON_BLOCK.get(), ModItems.ALCHEMICAL_IRON_INGOT.get(),
+                "has_alchemical_iron_ingot", ModItems.ALCHEMICAL_IRON_INGOT.get());
+        nineToBlock(consumer, RecipeCategory.MISC, ModBlocks.BLOOD_DIAMOND_BLOCK.get(), ModItems.BLOOD_DIAMOND.get(),
+                "has_blood_diamond", ModItems.BLOOD_DIAMOND.get());
 
         blockToNine(consumer, RecipeCategory.MISC, ModItems.TIN_INGOT.get(), ModBlocks.TIN_BLOCK.get(), "has_tin_block", ModBlocks.TIN_BLOCK.get());
         blockToNine(consumer, RecipeCategory.MISC, ModItems.BRONZE_INGOT.get(), ModBlocks.BRONZE_BLOCK.get(), "has_bronze_block", ModBlocks.BRONZE_BLOCK.get());
         blockToNine(consumer, RecipeCategory.MISC, ModItems.STEEL_INGOT.get(), ModBlocks.STEEL_BLOCK.get(), "has_steel_block", ModBlocks.STEEL_BLOCK.get());
         blockToNine(consumer, RecipeCategory.MISC, ModItems.URANIUM.get(), ModBlocks.URANIUM_BLOCK.get(), "has_uranium_block", ModBlocks.URANIUM_BLOCK.get());
         blockToNine(consumer, RecipeCategory.MISC, ModItems.RAW_TIN.get(), ModBlocks.RAW_TIN_BLOCK.get(), "has_raw_tin_block", ModBlocks.RAW_TIN_BLOCK.get());
+
+        blockToNine(consumer, RecipeCategory.MISC, ModItems.ALCHEMICAL_IRON_INGOT.get(), ModBlocks.ALCHEMICAL_IRON_BLOCK.get(),
+                "has_alchemical_iron_block", ModBlocks.ALCHEMICAL_IRON_BLOCK.get());
+        blockToNine(consumer, RecipeCategory.MISC, ModItems.BLOOD_DIAMOND.get(), ModBlocks.BLOOD_DIAMOND_BLOCK.get(),
+                "has_blood_diamond_block", ModBlocks.BLOOD_DIAMOND_BLOCK.get());
+
 
         oreSmelting(consumer, TIN_SMELTABLES, RecipeCategory.MISC, ModItems.TIN_INGOT.get(), 0.25f, 200, "tin");
         oreBlasting(consumer, TIN_SMELTABLES, RecipeCategory.MISC, ModItems.TIN_INGOT.get(), 0.25f, 100, "tin");
@@ -88,6 +124,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         paxelCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_PAXEL.get(),
                 ModItems.STEEL_AXE.get(), ModItems.STEEL_SHOVEL.get(), ModItems.STEEL_PICKAXE.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
+
+        paxelCrafting(consumer, RecipeCategory.TOOLS, ModItems.DIAMOND_PAXEL.get(),
+                Items.DIAMOND_AXE, Items.DIAMOND_SHOVEL, Items.DIAMOND_PICKAXE, "has_diamond", Items.DIAMOND);
+
+        paxelCrafting(consumer, RecipeCategory.TOOLS, ModItems.GOLD_PAXEL.get(),
+                Items.GOLDEN_AXE, Items.GOLDEN_SHOVEL, Items.GOLDEN_PICKAXE, "has_gold_ingot", Items.GOLD_INGOT);
+
+        paxelCrafting(consumer, RecipeCategory.TOOLS, ModItems.IRON_PAXEL.get(),
+                Items.IRON_AXE, Items.IRON_SHOVEL, Items.IRON_PICKAXE, "has_iron_ingot", Items.IRON_INGOT);
 
 
 

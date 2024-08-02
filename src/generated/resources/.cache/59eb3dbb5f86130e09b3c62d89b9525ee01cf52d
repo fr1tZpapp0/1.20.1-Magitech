@@ -1,4 +1,6 @@
-// 1.20.1	2024-08-01T02:50:39.7732453	Loot Tables
+// 1.20.1	2024-08-02T00:53:08.6890127	Loot Tables
+5356b75bbe12a9bca35b62c9dd010fa87e19138d data/magitech/loot_tables/blocks/alchemical_iron_block.json
+9cd3d85107f2061f4281587b6be8ed8d19e10bd4 data/magitech/loot_tables/blocks/blood_diamond_block.json
 e6eb18e6a9131be99b9637f00271b20e13a04b34 data/magitech/loot_tables/blocks/bronze_block.json
 28832cb6b186c07519e3e7d2e6f5454857ca626d data/magitech/loot_tables/blocks/deepslate_tin_ore.json
 7b70accc6f891a2072375049f5fbee4c6a8d9142 data/magitech/loot_tables/blocks/nether_uranium_ore.json
