@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "magitech:alchemical_iron_wand_cap"
+    },
+    "S": {
+      "item": "magitech:enhanced_wand"
+    }
+  },
+  "pattern": [
+    "  C",
+    " S ",
+    "C  "
+  ],
+  "result": {
+    "item": "magitech:advanced_wand"
+  },
+  "show_notification": true
+}

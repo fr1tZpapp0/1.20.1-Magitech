@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "magitech:iron_wand_cap"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  C",
+    " S ",
+    "C  "
+  ],
+  "result": {
+    "item": "magitech:basic_wand"
+  },
+  "show_notification": true
+}

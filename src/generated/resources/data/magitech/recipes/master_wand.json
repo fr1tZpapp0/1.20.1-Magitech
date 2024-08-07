@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "magitech:blood_diamond"
+    },
+    "C": {
+      "item": "magitech:obsidian_wand_cap"
+    },
+    "I": {
+      "item": "magitech:alchemical_iron_ingot"
+    },
+    "S": {
+      "item": "magitech:expert_wand"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "BSB",
+    "ICI"
+  ],
+  "result": {
+    "item": "magitech:master_wand"
+  },
+  "show_notification": true
+}

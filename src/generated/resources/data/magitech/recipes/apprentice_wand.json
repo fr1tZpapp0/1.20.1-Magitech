@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "magitech:gold_wand_cap"
+    },
+    "S": {
+      "item": "magitech:basic_wand"
+    }
+  },
+  "pattern": [
+    "  C",
+    " S ",
+    "C  "
+  ],
+  "result": {
+    "item": "magitech:apprentice_wand"
+  },
+  "show_notification": true
+}

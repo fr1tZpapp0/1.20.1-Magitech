@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "magitech:diamond_wand_cap"
+    },
+    "S": {
+      "item": "magitech:apprentice_wand"
+    }
+  },
+  "pattern": [
+    "  C",
+    " S ",
+    "C  "
+  ],
+  "result": {
+    "item": "magitech:enhanced_wand"
+  },
+  "show_notification": true
+}
