@@ -3,17 +3,16 @@ package net.fritz.magitech.block;
 import net.fritz.magitech.Magitech;
 import net.fritz.magitech.block.custom.ModFlammableRotatedPillarBlock;
 import net.fritz.magitech.item.ModItems;
+import net.fritz.magitech.worldgen.tree.RubberTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.LeavesBlock;
-import net.minecraft.world.level.block.SaplingBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -80,6 +79,20 @@ public class ModBlocks {
                 }
             });
 
+
+    public static final RegistryObject<Block> RUBBER_STAIRS = registerBlock("rubber_stairs",
+            () -> new StairBlock(() -> ModBlocks.RUBBER_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+
+    public static final RegistryObject<Block> RUBBER_SLAB = registerBlock("rubber_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+
+    public static final RegistryObject<Block> RUBBER_PRESSURE_PLATE = registerBlock("rubber_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE
+            ), BlockSetType.OAK));
+
+    public static final RegistryObject<Block> RUBBER_BUTTON = registerBlock("rubber_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON), BlockSetType.OAK, 10, true));
+
     public static final RegistryObject<Block> RUBBER_LEAVES = registerBlock("rubber_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
                 @Override
@@ -99,7 +112,7 @@ public class ModBlocks {
             });
 
     public static final RegistryObject<Block> RUBBER_SAPLING = registerBlock("rubber_sapling",
-            () -> new SaplingBlock(null, BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+            () -> new SaplingBlock(new RubberTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
 
     // ===== END BLOCKS =====

@@ -39,6 +39,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.BLOOD_DIAMOND_BLOCK.get()
         );
 
+        this.tag(BlockTags.MINEABLE_WITH_AXE).add(
+          ModBlocks.RUBBER_STAIRS.get(),
+          ModBlocks.RUBBER_SLAB.get()
+        );
+
         this.tag(BlockTags.NEEDS_IRON_TOOL).add(
                 ModBlocks.BRONZE_BLOCK.get(),
                 ModBlocks.STEEL_BLOCK.get(),

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magitech:rubber_planks"
+    }
+  ],
+  "result": {
+    "item": "magitech:rubber_button"
+  }
+}

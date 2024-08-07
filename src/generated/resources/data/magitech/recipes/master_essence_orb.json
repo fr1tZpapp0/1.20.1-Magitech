@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:emerald"
+    },
+    "N": {
+      "item": "magitech:advanced_essence_orb"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BNB",
+    "BBB"
+  ],
+  "result": {
+    "item": "magitech:master_essence_orb"
+  },
+  "show_notification": true
+}

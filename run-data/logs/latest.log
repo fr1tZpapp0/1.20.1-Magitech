@@ -1,31 +1,33 @@
-[02Aug2024 01:06:04.545] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\brand\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.43, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, magitech, --all, --output, C:\Users\brand\Desktop\Magitech\src\generated\resources, --existing, C:\Users\brand\Desktop\Magitech\src\main\resources]
-[02Aug2024 01:06:04.553] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.2 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[02Aug2024 01:06:04.695] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[02Aug2024 01:06:04.758] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/brand/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[02Aug2024 01:06:05.126] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\brand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.43\12e5cc2b50158bec903b4d511dfa0a0feb3209ab\javafmllanguage-1.20.1-47.1.43.jar is missing mods.toml file
-[02Aug2024 01:06:05.133] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\brand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.43\e25689773289037192545f72e23dff4d5023fe62\lowcodelanguage-1.20.1-47.1.43.jar is missing mods.toml file
-[02Aug2024 01:06:05.141] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\brand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.43\e6f54a896fcb804058c3c1713db61c205cb4b002\mclanguage-1.20.1-47.1.43.jar is missing mods.toml file
-[02Aug2024 01:06:05.148] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\brand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.43\f3f16308ded6e5e44588520dcdb767607f4ccafa\fmlcore-1.20.1-47.1.43.jar is missing mods.toml file
-[02Aug2024 01:06:05.249] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[02Aug2024 01:06:07.293] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\brand\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, magitech, --all, --output, C:\Users\brand\Desktop\Magitech\src\generated\resources, --existing, C:\Users\brand\Desktop\Magitech\src\main\resources]
-[02Aug2024 01:06:07.994] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [magitech]
-[02Aug2024 01:06:13.832] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.43, for MC 1.20.1 with MCP 20230612.114412
-[02Aug2024 01:06:13.833] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.43 Initialized
-[02Aug2024 01:06:14.166] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[02Aug2024 01:06:14.172] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.838 ms
-[02Aug2024 01:06:14.658] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/brand/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.43_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.43_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[02Aug2024 01:06:14.659] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/brand/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.43_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.43_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[02Aug2024 01:06:15.004] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[02Aug2024 01:06:15.114] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 109 ms
-[02Aug2024 01:06:15.115] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[02Aug2024 01:06:15.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 99 ms
-[02Aug2024 01:06:15.215] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
-[02Aug2024 01:06:15.369] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 154 ms
-[02Aug2024 01:06:15.369] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Tags
-[02Aug2024 01:06:15.372] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Tags finished after 2 ms
-[02Aug2024 01:06:15.373] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: magitech
-[02Aug2024 01:06:15.422] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: magitech finished after 48 ms
-[02Aug2024 01:06:15.422] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: magitech
-[02Aug2024 01:06:15.620] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: magitech finished after 198 ms
-[02Aug2024 01:06:15.620] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 617 ms
-[02Aug2024 01:06:15.653] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 200, old count: 195, new count: 201, removed stale: 0, written: 5
+[06Aug2024 22:00:57.325] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\brand\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.43, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, magitech, --all, --output, C:\Users\brand\Desktop\Magitech\src\generated\resources, --existing, C:\Users\brand\Desktop\Magitech\src\main\resources]
+[06Aug2024 22:00:57.332] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.2 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[06Aug2024 22:00:57.481] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[06Aug2024 22:00:57.546] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/brand/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[06Aug2024 22:00:57.903] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\brand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.43\12e5cc2b50158bec903b4d511dfa0a0feb3209ab\javafmllanguage-1.20.1-47.1.43.jar is missing mods.toml file
+[06Aug2024 22:00:57.909] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\brand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.43\e25689773289037192545f72e23dff4d5023fe62\lowcodelanguage-1.20.1-47.1.43.jar is missing mods.toml file
+[06Aug2024 22:00:57.915] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\brand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.43\e6f54a896fcb804058c3c1713db61c205cb4b002\mclanguage-1.20.1-47.1.43.jar is missing mods.toml file
+[06Aug2024 22:00:57.921] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\brand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.43\f3f16308ded6e5e44588520dcdb767607f4ccafa\fmlcore-1.20.1-47.1.43.jar is missing mods.toml file
+[06Aug2024 22:00:58.020] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[06Aug2024 22:00:59.696] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\brand\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, magitech, --all, --output, C:\Users\brand\Desktop\Magitech\src\generated\resources, --existing, C:\Users\brand\Desktop\Magitech\src\main\resources]
+[06Aug2024 22:01:00.199] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [magitech]
+[06Aug2024 22:01:04.769] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.43, for MC 1.20.1 with MCP 20230612.114412
+[06Aug2024 22:01:04.770] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.43 Initialized
+[06Aug2024 22:01:05.154] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[06Aug2024 22:01:05.171] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 10.25 ms
+[06Aug2024 22:01:05.630] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/brand/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.43_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.43_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[06Aug2024 22:01:05.630] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/brand/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.43_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.43_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[06Aug2024 22:01:05.915] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[06Aug2024 22:01:06.006] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 89 ms
+[06Aug2024 22:01:06.006] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[06Aug2024 22:01:06.096] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 90 ms
+[06Aug2024 22:01:06.097] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[06Aug2024 22:01:06.254] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 156 ms
+[06Aug2024 22:01:06.254] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Tags
+[06Aug2024 22:01:06.256] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Tags finished after 1 ms
+[06Aug2024 22:01:06.256] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: magitech
+[06Aug2024 22:01:06.293] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: magitech finished after 37 ms
+[06Aug2024 22:01:06.294] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: magitech
+[06Aug2024 22:01:06.460] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: magitech finished after 165 ms
+[06Aug2024 22:01:06.460] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[06Aug2024 22:01:06.484] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 23 ms
+[06Aug2024 22:01:06.484] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 569 ms
+[06Aug2024 22:01:06.525] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 303, old count: 291, new count: 304, removed stale: 0, written: 12

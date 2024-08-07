@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-02T00:53:08.6890127	Loot Tables
+// 1.20.1	2024-08-02T15:29:25.4193631	Loot Tables
 5356b75bbe12a9bca35b62c9dd010fa87e19138d data/magitech/loot_tables/blocks/alchemical_iron_block.json
 9cd3d85107f2061f4281587b6be8ed8d19e10bd4 data/magitech/loot_tables/blocks/blood_diamond_block.json
 e6eb18e6a9131be99b9637f00271b20e13a04b34 data/magitech/loot_tables/blocks/bronze_block.json
@@ -6,10 +6,14 @@ e6eb18e6a9131be99b9637f00271b20e13a04b34 data/magitech/loot_tables/blocks/bronze
 7b70accc6f891a2072375049f5fbee4c6a8d9142 data/magitech/loot_tables/blocks/nether_uranium_ore.json
 c8815ade93ada4a4a908c4b1a95212dff91588d4 data/magitech/loot_tables/blocks/obelisk.json
 3136617fd0c7431a20935b4c4383607ba3f159ae data/magitech/loot_tables/blocks/raw_tin_block.json
+946b4d78e73813c018ff8ac7a60e23b430ccb269 data/magitech/loot_tables/blocks/rubber_button.json
 edc21cf7f9dd9e8f98b9eaa484fb66c9e80e34c1 data/magitech/loot_tables/blocks/rubber_leaves.json
 834a38f4abc4000fd56f220dd97cf00ae95e495c data/magitech/loot_tables/blocks/rubber_log.json
 fef9df45da91985d53307915ef05362edc1ee3a8 data/magitech/loot_tables/blocks/rubber_planks.json
+06dec5db0823f15f1f5b9844635ae2f6286d8b2e data/magitech/loot_tables/blocks/rubber_pressure_plate.json
 1e5e82811cae997ff1c78a13ed7379e13f26c453 data/magitech/loot_tables/blocks/rubber_sapling.json
+b78819bfda0a83758604504623a44a912cbb1621 data/magitech/loot_tables/blocks/rubber_slab.json
+c1758f35eb3eb59433f89516b07e9823dcf17c14 data/magitech/loot_tables/blocks/rubber_stairs.json
 bc6052b6f6df780a919d734eee45d2e699cc83d3 data/magitech/loot_tables/blocks/rubber_wood.json
 59301dce0856e2c56fd513d100582a20272e6cc8 data/magitech/loot_tables/blocks/steel_block.json
 10aaee80e2c3664efd13bf5996788a6a6995f9ba data/magitech/loot_tables/blocks/stripped_rubber_log.json

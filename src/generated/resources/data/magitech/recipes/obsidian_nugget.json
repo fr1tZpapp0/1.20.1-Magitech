@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magitech:obsidian_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "magitech:obsidian_nugget"
+  }
+}

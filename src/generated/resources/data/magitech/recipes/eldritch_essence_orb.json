@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "magitech:blood_diamond"
+    },
+    "I": {
+      "item": "magitech:alchemical_iron_ingot"
+    },
+    "N": {
+      "item": "magitech:master_essence_orb"
+    },
+    "S": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "pattern": [
+    "IBI",
+    "BNB",
+    "ISI"
+  ],
+  "result": {
+    "item": "magitech:eldritch_essence_orb"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "magitech:enhanced_essence_orb"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BNB",
+    "BBB"
+  ],
+  "result": {
+    "item": "magitech:advanced_essence_orb"
+  },
+  "show_notification": true
+}

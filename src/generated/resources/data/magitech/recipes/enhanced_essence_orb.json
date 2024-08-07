@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "magitech:basic_essence_orb"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BNB",
+    "BBB"
+  ],
+  "result": {
+    "item": "magitech:enhanced_essence_orb"
+  },
+  "show_notification": true
+}

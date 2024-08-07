@@ -35,6 +35,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.RUBBER_PLANKS.get());
         this.dropSelf(ModBlocks.RUBBER_SAPLING.get());
 
+        this.dropSelf(ModBlocks.RUBBER_STAIRS.get());
+        this.dropSelf(ModBlocks.RUBBER_BUTTON.get());
+        this.dropSelf(ModBlocks.RUBBER_PRESSURE_PLATE.get());
+        this.add(ModBlocks.RUBBER_SLAB.get(), block -> createSlabItemTable(ModBlocks.RUBBER_SLAB.get()));
+
         this.add(ModBlocks.RUBBER_LEAVES.get(), block -> createLeavesDrops(block, ModBlocks.RUBBER_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
         this.add(ModBlocks.TIN_ORE.get(), block -> createOreDrop(ModBlocks.TIN_ORE.get(), ModItems.RAW_TIN.get()));

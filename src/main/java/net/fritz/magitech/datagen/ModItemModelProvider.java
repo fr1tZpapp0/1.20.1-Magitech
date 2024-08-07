@@ -10,6 +10,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider {
@@ -48,6 +49,23 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MASTER_ESSENCE_ORB);
         simpleItem(ModItems.ELDRITCH_ESSENCE_ORB);
 
+        simpleItem(ModItems.ALCHEMICAL_IRON_WAND_CAP);
+        simpleItem(ModItems.OBSIDIAN_WAND_CAP);
+        simpleItem(ModItems.IRON_WAND_CAP);
+        simpleItem(ModItems.BLOOD_DIAMOND_WAND_CAP);
+        simpleItem(ModItems.GOLD_WAND_CAP);
+        simpleItem(ModItems.DIAMOND_WAND_CAP);
+        simpleItem(ModItems.DIAMOND_NUGGET);
+        simpleItem(ModItems.OBSIDIAN_INGOT);
+        simpleItem(ModItems.OBSIDIAN_NUGGET);
+        simpleItem(ModItems.ALCHEMICAL_IRON_NUGGET);
+        simpleItem(ModItems.BLOOD_DIAMOND_NUGGET);
+
+
+
+        simpleItem(ModItems.SMURFBERRIES);
+
+
 
         simpleItem(ModItems.TREE_TAP);
 
@@ -62,9 +80,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.GOLD_PAXEL);
         handheldItem(ModItems.IRON_PAXEL);
 
-
+        handheldItem(ModItems.BASIC_WAND);
+        handheldItem(ModItems.APPRENTICE_WAND);
+        handheldItem(ModItems.ADVANCED_WAND);
+        handheldItem(ModItems.ENHANCED_WAND);
+        handheldItem(ModItems.EXPERT_WAND);
+        handheldItem(ModItems.MASTER_WAND);
 
         saplingItem(ModBlocks.RUBBER_SAPLING);
+
+        buttonItem(ModBlocks.RUBBER_BUTTON, ModBlocks.RUBBER_PLANKS);
 
     }
 
@@ -73,6 +98,13 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(Magitech.MOD_ID, "block/" + item.getId().getPath()));
     }
+
+
+    public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
+                .texture("texture", new ResourceLocation(Magitech.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
 
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -71,11 +71,59 @@ public class ModItems {
     public static final RegistryObject<Item> ALCHEMICAL_IRON_INGOT = ITEMS.register("alchemical_iron_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BLOOD_DIAMOND = ITEMS.register("blood_diamond", () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> BASIC_ESSENCE_ORB = ITEMS.register("basic_essence_orb", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ENHANCED_ESSENCE_ORB = ITEMS.register("enhanced_essence_orb", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ADVANCED_ESSENCE_ORB = ITEMS.register("advanced_essence_orb", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> MASTER_ESSENCE_ORB = ITEMS.register("master_essence_orb", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ELDRITCH_ESSENCE_ORB = ITEMS.register("eldritch_essence_orb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_WAND_CAP = ITEMS.register("iron_wand_cap", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_WAND_CAP = ITEMS.register("gold_wand_cap", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_WAND_CAP = ITEMS.register("diamond_wand_cap", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ALCHEMICAL_IRON_WAND_CAP = ITEMS.register("alchemical_iron_wand_cap", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLOOD_DIAMOND_WAND_CAP = ITEMS.register("blood_diamond_wand_cap", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OBSIDIAN_WAND_CAP = ITEMS.register("obsidian_wand_cap", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DIAMOND_NUGGET = ITEMS.register("diamond_nugget", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ALCHEMICAL_IRON_NUGGET = ITEMS.register("alchemical_iron_nugget", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLOOD_DIAMOND_NUGGET = ITEMS.register("blood_diamond_nugget", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OBSIDIAN_INGOT = ITEMS.register("obsidian_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OBSIDIAN_NUGGET = ITEMS.register("obsidian_nugget", () -> new Item(new Item.Properties()));
+
+
+    public static final RegistryObject<Item> BASIC_ESSENCE_ORB = ITEMS.register("basic_essence_orb",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> ENHANCED_ESSENCE_ORB = ITEMS.register("enhanced_essence_orb",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> ADVANCED_ESSENCE_ORB = ITEMS.register("advanced_essence_orb",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> MASTER_ESSENCE_ORB = ITEMS.register("master_essence_orb",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> ELDRITCH_ESSENCE_ORB = ITEMS.register("eldritch_essence_orb",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+
+
+    public static final RegistryObject<Item> BASIC_WAND = ITEMS.register("basic_wand",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> APPRENTICE_WAND = ITEMS.register("apprentice_wand",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> ENHANCED_WAND = ITEMS.register("enhanced_wand",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> ADVANCED_WAND = ITEMS.register("advanced_wand",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> EXPERT_WAND = ITEMS.register("expert_wand",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> MASTER_WAND = ITEMS.register("master_wand",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+
+
+
+
+    public static final RegistryObject<Item> SMURFBERRIES = ITEMS.register("smurfberries",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SMURFBERRIES)));
+
+
 
 
 

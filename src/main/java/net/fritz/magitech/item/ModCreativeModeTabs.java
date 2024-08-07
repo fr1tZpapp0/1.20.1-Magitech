@@ -54,6 +54,31 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ADVANCED_ESSENCE_ORB.get());
                         output.accept(ModItems.MASTER_ESSENCE_ORB.get());
                         output.accept(ModItems.ELDRITCH_ESSENCE_ORB.get());
+
+                        output.accept(ModItems.ALCHEMICAL_IRON_WAND_CAP.get());
+                        output.accept(ModItems.DIAMOND_WAND_CAP.get());
+                        output.accept(ModItems.IRON_WAND_CAP.get());
+                        output.accept(ModItems.GOLD_WAND_CAP.get());
+                        output.accept(ModItems.OBSIDIAN_WAND_CAP.get());
+                        output.accept(ModItems.BLOOD_DIAMOND_WAND_CAP.get());
+
+                        output.accept(ModItems.DIAMOND_NUGGET.get());
+                        output.accept(ModItems.BLOOD_DIAMOND_NUGGET.get());
+                        output.accept(ModItems.OBSIDIAN_NUGGET.get());
+                        output.accept(ModItems.ALCHEMICAL_IRON_NUGGET.get());
+                        output.accept(ModItems.OBSIDIAN_INGOT.get());
+
+
+                        output.accept(ModItems.BASIC_WAND.get());
+                        output.accept(ModItems.APPRENTICE_WAND.get());
+                        output.accept(ModItems.ENHANCED_WAND.get());
+                        output.accept(ModItems.ADVANCED_WAND.get());
+                        output.accept(ModItems.EXPERT_WAND.get());
+                        output.accept(ModItems.MASTER_WAND.get());
+
+
+
+
                         output.accept(ModBlocks.BLOOD_DIAMOND_BLOCK.get());
                         output.accept(ModBlocks.ALCHEMICAL_IRON_BLOCK.get());
 
@@ -67,6 +92,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RUBBER_PLANKS.get());
                         output.accept(ModBlocks.RUBBER_LEAVES.get());
                         output.accept(ModBlocks.RUBBER_SAPLING.get());
+                        output.accept(ModBlocks.RUBBER_BUTTON.get());
+                        output.accept(ModBlocks.RUBBER_PRESSURE_PLATE.get());
 
                         output.accept(ModItems.STEEL_SWORD.get());
                         output.accept(ModItems.STEEL_PICKAXE.get());
@@ -81,6 +108,10 @@ public class ModCreativeModeTabs {
 
 
                         output.accept(ModItems.TREE_TAP.get());
+
+
+                        output.accept(ModItems.SMURFBERRIES.get());
+
 
                     }).build());
 

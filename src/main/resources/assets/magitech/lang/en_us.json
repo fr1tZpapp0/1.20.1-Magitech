@@ -57,6 +57,26 @@
   "item.magitech.eldritch_essence_orb": "Eldritch Essence Orb",
 
 
+  "item.magitech.obsidian_wand_cap": "Obsidian Wand Cap",
+  "item.magitech.blood_diamond_wand_cap": "Blood Diamond Wand Cap",
+  "item.magitech.diamond_wand_cap": "Diamond Wand Cap",
+  "item.magitech.iron_wand_cap": "Iron Wand Cap",
+  "item.magitech.gold_wand_cap": "Gold Wand Cap",
+  "item.magitech.alchemical_iron_wand_cap": "Alchemical Iron Wand Cap",
+
+  "item.magitech.basic_wand": "Wand of Basic",
+  "item.magitech.apprentice_wand": "Wand of the Apprentice",
+  "item.magitech.enhanced_wand": "Enhanced Wand of the Apprentice",
+  "item.magitech.advanced_wand": "Advanced Wand of the Apprentice",
+  "item.magitech.expert_wand": "Wand of the Expert",
+  "item.magitech.master_wand": "Wand of the Master",
+
+  "item.magitech.diamond_nugget": "Diamond Nugget",
+  "item.magitech.alchemical_iron_nugget": "Alchemical Iron Nugget",
+  "item.magitech.blood_diamond_nugget": "Blood Infused Diamond Nugget",
+  "item.magitech.obsidian_nugget": "Obsidian Nugget",
+  "item.magitech.obsidian_ingot": "Obsidian Ingot",
+
   "block.magitech.rubber_log": "Rubber Log",
   "block.magitech.rubber_wood": "Rubber Wood",
   "block.magitech.stripped_rubber_log": "Stripped Rubber Log",
@@ -64,6 +84,14 @@
   "block.magitech.rubber_planks": "Rubber Planks",
   "block.magitech.rubber_leaves": "Rubber Leaves",
   "block.magitech.rubber_sapling": "Rubber Sapling",
+
+  "block.magitech.rubber_stairs": "Rubber Stairs",
+  "block.magitech.rubber_slab": "Rubber Slab",
+  "block.magitech.rubber_pressure_plate": "Rubber Pressure Plate",
+  "block.magitech.rubber_button": "Rubber Button",
+
+
+  "item.magitech.smurfberries": "Smurfberries",
 
 
 

@@ -1,0 +1,4 @@
+// 1.20.1	2024-08-02T15:04:52.0080555	Registries
+c38189e953871477a2fdba39d4d8960e1e99e061 data/magitech/forge/biome_modifier/add_key_rubber.json
+f7c9f378f875c37fead2c5c7bf7820076a6bcd92 data/magitech/worldgen/configured_feature/rubber.json
+a2c8ca4c6ea7483657dfbb6eb2920e8d00359a57 data/magitech/worldgen/placed_feature/rubber_placed.json

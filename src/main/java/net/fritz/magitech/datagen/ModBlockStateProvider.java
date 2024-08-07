@@ -4,8 +4,7 @@ import net.fritz.magitech.Magitech;
 import net.fritz.magitech.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -50,6 +49,19 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         leavesBlock(ModBlocks.RUBBER_LEAVES);
         saplingBlock(ModBlocks.RUBBER_SAPLING);
+
+
+        stairsBlock((StairBlock) ModBlocks.RUBBER_STAIRS.get(), blockTexture(ModBlocks.RUBBER_PLANKS.get()));
+        slabBlock((SlabBlock) ModBlocks.RUBBER_SLAB.get(), blockTexture(ModBlocks.RUBBER_PLANKS.get()), blockTexture(ModBlocks.RUBBER_PLANKS.get()));
+        buttonBlock((ButtonBlock) ModBlocks.RUBBER_BUTTON.get(), blockTexture(ModBlocks.RUBBER_PLANKS.get()));
+        pressurePlateBlock((PressurePlateBlock) ModBlocks.RUBBER_PRESSURE_PLATE.get(), blockTexture(ModBlocks.RUBBER_PLANKS.get()));
+
+        blockItem(ModBlocks.RUBBER_STAIRS);
+        blockItem(ModBlocks.RUBBER_SLAB);
+        blockItem(ModBlocks.RUBBER_PRESSURE_PLATE);
+
+
+
 
     }
 

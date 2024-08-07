@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "magitech:block/rubber_planks",
+    "side": "magitech:block/rubber_planks",
+    "top": "magitech:block/rubber_planks"
+  }
+}
