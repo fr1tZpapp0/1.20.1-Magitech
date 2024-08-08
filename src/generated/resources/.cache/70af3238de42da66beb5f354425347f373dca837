@@ -1,9 +1,9 @@
-// 1.20.1	2024-08-02T15:15:43.8711956	Block Tags
+// 1.20.1	2024-08-08T01:34:47.5217744	Block Tags
 e92d62eb8e4757bdee466a317d12336abb981f75 data/magitech/tags/blocks/needs_steel_tool.json
 82362cfbd1836db13c7e9d36c8712821e795ac55 data/magitech/tags/blocks/paxel_mineable.json
 be7a636b0e5a766e434d0e374dc4d690074f9542 data/minecraft/tags/blocks/logs_that_burn.json
 20957a3e12b69afb2cc43fad4bd2ec4609904d85 data/minecraft/tags/blocks/mineable/axe.json
-cd5a018db606268d874fceb4b82d15a0cad53629 data/minecraft/tags/blocks/mineable/pickaxe.json
+b16d0092b9acf7f867240c7cc703d1bd1d52fadd data/minecraft/tags/blocks/mineable/pickaxe.json
 33ab6b132a3d3ef4c9c2e721cb85219841036f7d data/minecraft/tags/blocks/needs_diamond_tool.json
-a7841f4d6f287c001d691048e299f8e97e5c2dec data/minecraft/tags/blocks/needs_iron_tool.json
+48eb11bbf6b7e691793636c47511def351356f1c data/minecraft/tags/blocks/needs_iron_tool.json
 9412553c91d88b67001350e1555e37dfb4c1f47b data/minecraft/tags/blocks/planks.json

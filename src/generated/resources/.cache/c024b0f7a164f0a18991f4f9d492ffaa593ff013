@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-02T15:29:25.4153623	Block States: magitech
+// 1.20.1	2024-08-08T01:34:47.5192729	Block States: magitech
 adb0ce6aa7a7d016b8a475f0f5484896f2d3c017 assets/magitech/blockstates/alchemical_iron_block.json
 ff6a7678a2f48223cc25214ef9ba732b3375fd31 assets/magitech/blockstates/blood_diamond_block.json
 15ee71f7799fa9b024f74ef45e6ef788eda4ab55 assets/magitech/blockstates/bronze_block.json
@@ -6,6 +6,7 @@ fdd268f0cc46030db2b8454266e26682fa49e2f7 assets/magitech/blockstates/deepslate_t
 f8e52d6c12cd11e18e5d3eeaab308947957a8a2a assets/magitech/blockstates/nether_uranium_ore.json
 4824e9f7133980d019e39d6c21c9083f27f80887 assets/magitech/blockstates/obelisk.json
 1e09486dc49669864737803294dbbb48e47fb88d assets/magitech/blockstates/raw_tin_block.json
+9a1872ecf5f092c55346d7f18b62bb2440aaaf75 assets/magitech/blockstates/ritual_stone.json
 7ce17ecd25c1dfb259fd48c364d99df6bca591b8 assets/magitech/blockstates/rubber_button.json
 173e5db59edadea7a958d4ed3ae6f8aacdb0d525 assets/magitech/blockstates/rubber_leaves.json
 f1668e182813ec628e0f1b499acbc9ee1c6eab46 assets/magitech/blockstates/rubber_log.json
@@ -28,6 +29,7 @@ d6041a69e8e0957c0b21677999c1cd001fc286ee assets/magitech/models/block/alchemical
 61dd1de2e05d142e20537c480261e61008f15cdd assets/magitech/models/block/nether_uranium_ore.json
 9c0769d09919cd4c8b21f5700f315220fbf98d5c assets/magitech/models/block/obelisk.json
 5185d94ca8f17c9cec5e18f9227345a9cf20d634 assets/magitech/models/block/raw_tin_block.json
+b8073fde8d908ff1e02aa57e23db6978d5a81056 assets/magitech/models/block/ritual_stone.json
 8756eb01dfe83be080520b701d86ecb691a4c0da assets/magitech/models/block/rubber_button.json
 692be16c5f6754848de612c6b531d13992c7b6d7 assets/magitech/models/block/rubber_button_pressed.json
 cf4e02a1323c9eebcee96563d5190e2b1be6287f assets/magitech/models/block/rubber_leaves.json
@@ -59,6 +61,7 @@ d4489e4d260429b09565b3aa4b0e4ee1fa3860b3 assets/magitech/models/block/uranium_bl
 7f8dacc152835376a94523c52d48aa217b4196b8 assets/magitech/models/item/nether_uranium_ore.json
 e2c49839f234682588c1a47e79236c2e8ab537f9 assets/magitech/models/item/obelisk.json
 917801f3755b350a747394556dab277af12aa0c0 assets/magitech/models/item/raw_tin_block.json
+14adc5598065a158279ae12236aa1d5ed07956d1 assets/magitech/models/item/ritual_stone.json
 f3661e8babce574b5b9801480ad6eb8ea971621a assets/magitech/models/item/rubber_leaves.json
 f90d8695c6142779a0e4b9b3dd2471c5e3d7cab1 assets/magitech/models/item/rubber_log.json
 8e9f2391131dbc7f76c49f24358eaebd0689ae9d assets/magitech/models/item/rubber_planks.json

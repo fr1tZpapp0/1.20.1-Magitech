@@ -2,6 +2,7 @@ package net.fritz.magitech.datagen;
 
 import net.fritz.magitech.Magitech;
 import net.fritz.magitech.block.ModBlocks;
+import net.fritz.magitech.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -33,8 +34,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.tag(ItemTags.PLANKS)
                 .add(ModBlocks.RUBBER_PLANKS.get().asItem());
 
-
+        this.tag(ModTags.Items.RUBBER_LOG_CRAFTS).add(
+          ModBlocks.RUBBER_LOG.get().asItem(),
+          ModBlocks.STRIPPED_RUBBER_LOG.get().asItem()
+        );
     }
+
+
 
     @Override
     public String getName() {

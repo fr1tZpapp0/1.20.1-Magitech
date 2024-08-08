@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-06T21:50:13.4057973	Item Models: magitech
+// 1.20.1	2024-08-08T03:46:35.4586621	Item Models: magitech
 5a8428062b0377cb35ef361c91ae2b893d3fd1f3 assets/magitech/models/item/advanced_essence_orb.json
 2ba8e7e2e44a15d14ec2264d6f689e97485a121c assets/magitech/models/item/advanced_wand.json
 fcaed2e9603772754d0ed73c736f62dab0033eb6 assets/magitech/models/item/alchemical_iron_ingot.json
@@ -10,6 +10,7 @@ a49c8d8627ffbb6e0ca0f65fbaeee41370cd2618 assets/magitech/models/item/basic_wand.
 1928a59dce94aa80479d79a2a2a8fdbf9aa1fa33 assets/magitech/models/item/blood_diamond.json
 f989a72c49fbbca3ba455d47f96c175691672642 assets/magitech/models/item/blood_diamond_nugget.json
 d94930ba691c6b4c740a2c5dcaedd9662bccc7b9 assets/magitech/models/item/blood_diamond_wand_cap.json
+8907839cb4cfc12458973cef9e811d7623f4a08e assets/magitech/models/item/blood_vial.json
 ea2f08064ace693c7c7f38353a6ae19ddb3003c6 assets/magitech/models/item/bronze_blend.json
 c1349b24326463f8530da9f0a7490e65982aa977 assets/magitech/models/item/bronze_ingot.json
 c564d9f0a57fa41777872fd6545b1e6fd72c2813 assets/magitech/models/item/bronze_plate.json
@@ -28,8 +29,10 @@ e4b95661b57b57f784ffb70f5a80318e2a971d69 assets/magitech/models/item/iron_paxel.
 31e9490c5b3753e7df7a827ba6d83a022aa016eb assets/magitech/models/item/iron_plate.json
 4df76b382777fb18eff97cda5f0faa97cde9f9bc assets/magitech/models/item/iron_wand_cap.json
 00f24305f1c4deaedaa272e031a22378f2e83279 assets/magitech/models/item/latex.json
+0a697518ab9056fca78e2de80173d120354b2d14 assets/magitech/models/item/liliths_dagger.json
 53d189446d88e35d0925a5aa13be51491b10a4b6 assets/magitech/models/item/master_essence_orb.json
 8b60ea34451e0d3efd8cafa79aae55b898378fd7 assets/magitech/models/item/master_wand.json
+739cef22d79f3a792026d0f077595cfbe128aa25 assets/magitech/models/item/necronomicon.json
 33ec70ad3082733182d35b1e7aa57c77823ac4e4 assets/magitech/models/item/netherite_plate.json
 a2e6183db5bd8b7df833b6e4c7fa94f05c400148 assets/magitech/models/item/obsidian_ingot.json
 11f09b9fdc04aee8b121c270046b2c3a93b2b129 assets/magitech/models/item/obsidian_nugget.json
@@ -38,6 +41,8 @@ ef6abda63bbea1ef3432cd0a22cb1a9857fba733 assets/magitech/models/item/obsidian_wa
 51a9491d25b1364c814e5e8b3a18807ad70ec620 assets/magitech/models/item/rubber.json
 ea386316eaa5127dfc93747e70bd2e1f0b6e8023 assets/magitech/models/item/rubber_button.json
 2809de51fdfd786998f8bf540ce2213315515abd assets/magitech/models/item/rubber_sapling.json
+64990e43def0ca19e3d537760325e352f7974e68 assets/magitech/models/item/sacrificial_knife.json
+f48ffb0c94a108cbd111ed05e57d5b2514fd65cc assets/magitech/models/item/smokey_quartz.json
 1e02c10688d35fed8407d20ddc0ffd11e539945c assets/magitech/models/item/smurfberries.json
 7ce657cac68851f81825a9e47ef15c7543f34b6b assets/magitech/models/item/steel_axe.json
 611dd8ead2094c139993c0c91063c1533315ef7d assets/magitech/models/item/steel_hoe.json
@@ -51,4 +56,5 @@ a8974036e375d998fef5087edb38819745ca404f assets/magitech/models/item/tin_ingot.j
 fbdf49748bb7860e160ebdeebbb5d395cdfc5149 assets/magitech/models/item/tin_plate.json
 56e17dfd4bc12672d40e36dd8c327e93a8f076ee assets/magitech/models/item/tree_tap.json
 96164cb0463b069290cbbc44df3f9e11abf69f19 assets/magitech/models/item/uranium.json
+cbe7fd98d9cbfc6dfdbdbef0b3cc79c30226f596 assets/magitech/models/item/villager_flesh.json
 d775962dbf9df0a1267b107930c1113a9d714434 assets/magitech/models/item/wire_spool.json

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "D": {
+      "item": "magitech:blood_diamond"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "Q": {
+      "item": "magitech:smokey_quartz"
+    },
+    "V": {
+      "item": "magitech:blood_vial"
+    }
+  },
+  "pattern": [
+    "VDV",
+    "DBD",
+    "QFQ"
+  ],
+  "result": {
+    "item": "magitech:necronomicon"
+  },
+  "show_notification": true
+}

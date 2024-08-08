@@ -182,6 +182,48 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(consumer);
 
 
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SACRIFICIAL_KNIFE.get())
+                .pattern("I")
+                .pattern("D")
+                .pattern("G")
+                .define('I', Items.IRON_INGOT)
+                .define('D', Items.DIAMOND)
+                .define('G', Items.GOLD_INGOT)
+                .unlockedBy("has_diamond", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.DIAMOND).build()))
+                .save(consumer);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NECRONOMICON.get())
+                .pattern("VLV")
+                .pattern("DBD")
+                .pattern("QFQ")
+                .define('B', Items.BOOK)
+                .define('F', Items.FEATHER)
+                .define('Q', ModItems.SMOKEY_QUARTZ.get())
+                .define('V', ModItems.BLOOD_VIAL.get())
+                .define('D', ModItems.BLOOD_DIAMOND.get())
+                .define('L', ModItems.VILLAGER_FLESH.get())
+                .unlockedBy("has_diamond", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.DIAMOND).build()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LILITHS_DAGGER.get())
+                .pattern("AVA")
+                .pattern("BSB")
+                .pattern("QRQ")
+                .define('S', Items.DIAMOND_SWORD)
+                .define('A', ModItems.ALCHEMICAL_IRON_INGOT.get())
+                .define('B', ModItems.BLOOD_DIAMOND.get())
+                .define('Q', ModItems.SMOKEY_QUARTZ.get())
+                .define('R', ModBlocks.RITUAL_STONE.get())
+                .define('V', ModItems.BLOOD_VIAL.get())
+                .unlockedBy("has_blood_diamond", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.BLOOD_DIAMOND.get()).build()))
+                .save(consumer);
+
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RUBBER_PRESSURE_PLATE.get())
                 .pattern("PP")
                 .define('P', ModBlocks.RUBBER_PLANKS.get())
@@ -212,6 +254,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_tree_tap", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.TREE_TAP.get()).build()))
                 .save(consumer);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BLOOD_VIAL.get())
+                .requires(ModItems.SACRIFICIAL_KNIFE.get())
+                .requires(Items.GLASS_BOTTLE)
+                .unlockedBy("has_sacrificial_knife", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.SACRIFICIAL_KNIFE.get()).build()))
+                .save(consumer);
+
 
 
         nineToBlock(consumer, RecipeCategory.MISC, ModBlocks.TIN_BLOCK.get(), ModItems.TIN_INGOT.get(), "has_tin_ingot", ModItems.TIN_INGOT.get(), "tin_ingot_to_block");
@@ -255,7 +306,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         wandCapCrafter(consumer, RecipeCategory.MISC, ModItems.OBSIDIAN_WAND_CAP.get(), ModItems.OBSIDIAN_NUGGET.get(), "has_obsidian_nugget", ModItems.OBSIDIAN_NUGGET.get());
 
 
-
+        planksFromLogs(consumer, ModBlocks.RUBBER_PLANKS.get(), ModTags.Items.RUBBER_LOG_CRAFTS, 4);
+        woodFromLogs(consumer, ModBlocks.RUBBER_WOOD.get(), ModBlocks.RUBBER_LOG.get());
+        woodFromLogs(consumer, ModBlocks.STRIPPED_RUBBER_WOOD.get(), ModBlocks.STRIPPED_RUBBER_LOG.get());
 
         slabCrafter(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBBER_SLAB.get(), ModBlocks.RUBBER_PLANKS.get(), "has_rubber_planks", ModBlocks.RUBBER_PLANKS.get());
         stairCrafter(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBBER_STAIRS.get(), ModBlocks.RUBBER_PLANKS.get(), "has_rubber_planks", ModBlocks.RUBBER_PLANKS.get());
@@ -272,6 +325,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(consumer, List.of(ModBlocks.NETHER_URANIUM_ORE.get()), RecipeCategory.MISC, ModItems.URANIUM.get(), 0.25f, 200, "uranium");
         oreBlasting(consumer, List.of(ModBlocks.NETHER_URANIUM_ORE.get()), RecipeCategory.MISC, ModItems.URANIUM.get(), 0.25f, 100, "uranium");
 
+        oreSmelting(consumer, List.of(Items.QUARTZ), RecipeCategory.MISC, ModItems.SMOKEY_QUARTZ.get(), 0.25f, 200, "smokey_quartz");
 
         swordCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_SWORD.get(), ModItems.STEEL_INGOT.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
         pickaxeCrafting(consumer, RecipeCategory.TOOLS, ModItems.STEEL_PICKAXE.get(), ModItems.STEEL_INGOT.get(), "has_steel_ingot", ModItems.STEEL_INGOT.get());
@@ -430,6 +484,30 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(criteriaItemLike).build()))
                 .save(consumer);
     }
+
+
+    private static void plankFromWood(Consumer<FinishedRecipe> consumer, RecipeCategory category,
+                                    ItemLike output, ItemLike input, String criteriaName, ItemLike criteriaItemLike, String secondary) {
+        ShapelessRecipeBuilder.shapeless(category, output, 4)
+                .requires(input)
+                .unlockedBy(criteriaName, inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(criteriaItemLike).build()))
+                .save(consumer, secondary);
+    }
+
+    private static void woodFromLog(Consumer<FinishedRecipe> consumer, RecipeCategory category,
+                                    ItemLike output, ItemLike input, String criteriaName, ItemLike criteriaItemLike, String secondary) {
+        ShapedRecipeBuilder.shaped(category, output, 3)
+                .pattern("AA")
+                .pattern("AA")
+                .define('A', input)
+                .unlockedBy(criteriaName, inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(criteriaItemLike).build()))
+                .save(consumer, secondary);
+    }
+
+
+
 
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory,

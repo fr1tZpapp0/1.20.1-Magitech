@@ -4,10 +4,7 @@
   "item.magitech.bronze_blend": "Bronze Blend",
   "item.magitech.bronze_ingot": "Bronze Ingot",
   "item.magitech.steel_ingot": "Steel Ingot",
-
   "item.magitech.uranium": "Uranium",
-  "block.magitech.uranium_block": "Block of Uranium",
-
 
   "item.magitech.wire_spool": "Spool of Wire",
   "item.magitech.rubber": "Rubber",
@@ -36,18 +33,6 @@
   "item.magitech.diamond_plate": "Diamond Plate",
   "item.magitech.netherite_plate": "Netherite Plate",
 
-  "block.magitech.raw_tin_block": "Block of Raw Tin",
-  "block.magitech.tin_block": "Block of Tin",
-  "block.magitech.steel_block": "Block of Steel",
-  "block.magitech.bronze_block": "Block of Bronze",
-  "block.magitech.tin_ore": "Tin Ore",
-  "block.magitech.deepslate_tin_ore": "Deepslate Tin Ore",
-  "block.magitech.nether_uranium_ore": "Netherrack Uranium Ore",
-
-  "block.magitech.obelisk": "Obelisk",
-  "block.magitech.alchemical_iron_block": "Block of Alchemical Iron",
-  "block.magitech.blood_diamond_block": "Block of Blood Diamonds",
-
   "item.magitech.blood_diamond": "Blood Infused Diamond",
   "item.magitech.alchemical_iron_ingot": "Alchemical Iron Ingot",
   "item.magitech.basic_essence_orb": "Basic Essence Orb",
@@ -64,10 +49,10 @@
   "item.magitech.gold_wand_cap": "Gold Wand Cap",
   "item.magitech.alchemical_iron_wand_cap": "Alchemical Iron Wand Cap",
 
-  "item.magitech.basic_wand": "Wand of Basic",
+  "item.magitech.basic_wand": "Basic Wand",
   "item.magitech.apprentice_wand": "Wand of the Apprentice",
-  "item.magitech.enhanced_wand": "Enhanced Wand of the Apprentice",
-  "item.magitech.advanced_wand": "Advanced Wand of the Apprentice",
+  "item.magitech.enhanced_wand": "Wand of the Mage",
+  "item.magitech.advanced_wand": "Wand of the Magister",
   "item.magitech.expert_wand": "Wand of the Expert",
   "item.magitech.master_wand": "Wand of the Master",
 
@@ -76,6 +61,31 @@
   "item.magitech.blood_diamond_nugget": "Blood Infused Diamond Nugget",
   "item.magitech.obsidian_nugget": "Obsidian Nugget",
   "item.magitech.obsidian_ingot": "Obsidian Ingot",
+
+  "item.magitech.sacrificial_knife": "Sacrificial Knife",
+  "item.magitech.liliths_dagger": "Dagger of Lilith",
+  "item.magitech.necronomicon": "Necronomicon",
+  "item.magitech.smokey_quartz": "Smokey Quartz",
+  "item.magitech.blood_vial": "Vial of Blood",
+  "item.magitech.villager_flesh": "Villager Flesh",
+
+
+
+
+
+  "block.magitech.raw_tin_block": "Block of Raw Tin",
+  "block.magitech.tin_block": "Block of Tin",
+  "block.magitech.steel_block": "Block of Steel",
+  "block.magitech.bronze_block": "Block of Bronze",
+  "block.magitech.tin_ore": "Tin Ore",
+  "block.magitech.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.magitech.nether_uranium_ore": "Netherrack Uranium Ore",
+  "block.magitech.uranium_block": "Block of Uranium",
+
+  "block.magitech.obelisk": "Obelisk",
+  "block.magitech.ritual_stone": "Ritualistic Stone",
+  "block.magitech.alchemical_iron_block": "Block of Alchemical Iron",
+  "block.magitech.blood_diamond_block": "Block of Blood Diamonds",
 
   "block.magitech.rubber_log": "Rubber Log",
   "block.magitech.rubber_wood": "Rubber Wood",
@@ -95,5 +105,6 @@
 
 
 
-  "creativetab.magitech_tab": "Magitech"
+  "creativetab.magitech_tab": "Magitech - Items",
+  "creativetab.magitech_blocks": "Magitech - Blocks"
 }

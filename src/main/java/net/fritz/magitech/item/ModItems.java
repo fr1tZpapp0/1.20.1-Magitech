@@ -2,7 +2,6 @@ package net.fritz.magitech.item;
 
 import net.fritz.magitech.Magitech;
 import net.fritz.magitech.item.custom.PaxelItem;
-import net.fritz.magitech.item.custom.tapItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,6 +14,8 @@ public class ModItems {
 
     // ===== BEGIN ITEMS =====
 
+
+    // TECH ITEMS
     public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_BLEND = ITEMS.register("bronze_blend", () -> new Item(new Item.Properties()));
@@ -35,7 +36,7 @@ public class ModItems {
     public static final RegistryObject<Item> LATEX = ITEMS.register("latex", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> TREE_TAP = ITEMS.register("tree_tap",
-            () -> new tapItem(new Item.Properties().defaultDurability(623)));
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword",
             () -> new SwordItem(ModToolTiers.STEEL, 2, 3, new Item.Properties()));
@@ -100,29 +101,32 @@ public class ModItems {
 
     public static final RegistryObject<Item> BASIC_WAND = ITEMS.register("basic_wand",
             () -> new Item(new Item.Properties().stacksTo(1)));
-
     public static final RegistryObject<Item> APPRENTICE_WAND = ITEMS.register("apprentice_wand",
             () -> new Item(new Item.Properties().stacksTo(1)));
-
     public static final RegistryObject<Item> ENHANCED_WAND = ITEMS.register("enhanced_wand",
             () -> new Item(new Item.Properties().stacksTo(1)));
-
     public static final RegistryObject<Item> ADVANCED_WAND = ITEMS.register("advanced_wand",
             () -> new Item(new Item.Properties().stacksTo(1)));
-
     public static final RegistryObject<Item> EXPERT_WAND = ITEMS.register("expert_wand",
             () -> new Item(new Item.Properties().stacksTo(1)));
-
     public static final RegistryObject<Item> MASTER_WAND = ITEMS.register("master_wand",
             () -> new Item(new Item.Properties().stacksTo(1)));
 
 
+    public static final RegistryObject<Item> NECRONOMICON = ITEMS.register("necronomicon", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SACRIFICIAL_KNIFE = ITEMS.register("sacrificial_knife", () ->
+            new SwordItem(Tiers.IRON, 1, 2, new Item.Properties()));
+    public static final RegistryObject<Item> LILITHS_DAGGER = ITEMS.register("liliths_dagger", () ->
+            new SwordItem(Tiers.DIAMOND, 3, 2, new Item.Properties()));
+    public static final RegistryObject<Item> BLOOD_VIAL = ITEMS.register("blood_vial", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SMOKEY_QUARTZ = ITEMS.register("smokey_quartz", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> VILLAGER_FLESH = ITEMS.register("villager_flesh", () -> new Item(new Item.Properties()));
 
 
-
+    // FOODS
     public static final RegistryObject<Item> SMURFBERRIES = ITEMS.register("smurfberries",
             () -> new Item(new Item.Properties().food(ModFoodProperties.SMURFBERRIES)));
-
 
 
 

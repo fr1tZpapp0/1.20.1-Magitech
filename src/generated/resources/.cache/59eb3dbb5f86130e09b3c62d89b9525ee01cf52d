@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-02T15:29:25.4193631	Loot Tables
+// 1.20.1	2024-08-08T01:34:47.5227736	Loot Tables
 5356b75bbe12a9bca35b62c9dd010fa87e19138d data/magitech/loot_tables/blocks/alchemical_iron_block.json
 9cd3d85107f2061f4281587b6be8ed8d19e10bd4 data/magitech/loot_tables/blocks/blood_diamond_block.json
 e6eb18e6a9131be99b9637f00271b20e13a04b34 data/magitech/loot_tables/blocks/bronze_block.json
@@ -6,6 +6,7 @@ e6eb18e6a9131be99b9637f00271b20e13a04b34 data/magitech/loot_tables/blocks/bronze
 7b70accc6f891a2072375049f5fbee4c6a8d9142 data/magitech/loot_tables/blocks/nether_uranium_ore.json
 c8815ade93ada4a4a908c4b1a95212dff91588d4 data/magitech/loot_tables/blocks/obelisk.json
 3136617fd0c7431a20935b4c4383607ba3f159ae data/magitech/loot_tables/blocks/raw_tin_block.json
+b9c11ab2ccca16c6c1abf865cffa52b69f4cfd3b data/magitech/loot_tables/blocks/ritual_stone.json
 946b4d78e73813c018ff8ac7a60e23b430ccb269 data/magitech/loot_tables/blocks/rubber_button.json
 edc21cf7f9dd9e8f98b9eaa484fb66c9e80e34c1 data/magitech/loot_tables/blocks/rubber_leaves.json
 834a38f4abc4000fd56f220dd97cf00ae95e495c data/magitech/loot_tables/blocks/rubber_log.json

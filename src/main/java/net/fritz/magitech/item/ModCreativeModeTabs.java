@@ -37,16 +37,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIAMOND_PLATE.get());
                         output.accept(ModItems.NETHERITE_PLATE.get());
 
-                        output.accept(ModBlocks.STEEL_BLOCK.get());
-                        output.accept(ModBlocks.BRONZE_BLOCK.get());
-                        output.accept(ModBlocks.URANIUM_BLOCK.get());
-                        output.accept(ModBlocks.TIN_BLOCK.get());
-                        output.accept(ModBlocks.RAW_TIN_BLOCK.get());
-                        output.accept(ModBlocks.TIN_ORE.get());
-                        output.accept(ModBlocks.DEEPSLATE_TIN_ORE.get());
-                        output.accept(ModBlocks.NETHER_URANIUM_ORE.get());
 
-                        output.accept(ModBlocks.OBELISK.get());
+
                         output.accept(ModItems.ALCHEMICAL_IRON_INGOT.get());
                         output.accept(ModItems.BLOOD_DIAMOND.get());
                         output.accept(ModItems.BASIC_ESSENCE_ORB.get());
@@ -77,23 +69,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MASTER_WAND.get());
 
 
+                        output.accept(ModItems.NECRONOMICON.get());
+                        output.accept(ModItems.SACRIFICIAL_KNIFE.get());
+                        output.accept(ModItems.LILITHS_DAGGER.get());
+                        output.accept(ModItems.SMOKEY_QUARTZ.get());
+                        output.accept(ModItems.BLOOD_VIAL.get());
+                        output.accept(ModItems.VILLAGER_FLESH.get());
 
-
-                        output.accept(ModBlocks.BLOOD_DIAMOND_BLOCK.get());
-                        output.accept(ModBlocks.ALCHEMICAL_IRON_BLOCK.get());
-
-
-
-
-                        output.accept(ModBlocks.RUBBER_LOG.get());
-                        output.accept(ModBlocks.RUBBER_WOOD.get());
-                        output.accept(ModBlocks.STRIPPED_RUBBER_LOG.get());
-                        output.accept(ModBlocks.STRIPPED_RUBBER_WOOD.get());
-                        output.accept(ModBlocks.RUBBER_PLANKS.get());
-                        output.accept(ModBlocks.RUBBER_LEAVES.get());
-                        output.accept(ModBlocks.RUBBER_SAPLING.get());
-                        output.accept(ModBlocks.RUBBER_BUTTON.get());
-                        output.accept(ModBlocks.RUBBER_PRESSURE_PLATE.get());
 
                         output.accept(ModItems.STEEL_SWORD.get());
                         output.accept(ModItems.STEEL_PICKAXE.get());
@@ -114,6 +96,41 @@ public class ModCreativeModeTabs {
 
 
                     }).build());
+
+
+
+    public static final RegistryObject<CreativeModeTab> MAGITECH_BLOCKS = CREATIVE_MODE_TABS.register("magitech_blocks",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.RUBBER_PLANKS.get()))
+                    .title(Component.translatable("creativetab.magitech_blocks"))
+                    .displayItems((parameters, output) -> {
+
+                        output.accept(ModBlocks.RUBBER_LOG.get());
+                        output.accept(ModBlocks.RUBBER_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_RUBBER_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_RUBBER_WOOD.get());
+                        output.accept(ModBlocks.RUBBER_PLANKS.get());
+                        output.accept(ModBlocks.RUBBER_LEAVES.get());
+                        output.accept(ModBlocks.RUBBER_SAPLING.get());
+                        output.accept(ModBlocks.RUBBER_BUTTON.get());
+                        output.accept(ModBlocks.RUBBER_PRESSURE_PLATE.get());
+
+                        output.accept(ModBlocks.BLOOD_DIAMOND_BLOCK.get());
+                        output.accept(ModBlocks.ALCHEMICAL_IRON_BLOCK.get());
+                        output.accept(ModBlocks.OBELISK.get());
+                        output.accept(ModBlocks.RITUAL_STONE.get());
+
+                        output.accept(ModBlocks.STEEL_BLOCK.get());
+                        output.accept(ModBlocks.BRONZE_BLOCK.get());
+                        output.accept(ModBlocks.URANIUM_BLOCK.get());
+                        output.accept(ModBlocks.TIN_BLOCK.get());
+                        output.accept(ModBlocks.RAW_TIN_BLOCK.get());
+                        output.accept(ModBlocks.TIN_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_TIN_ORE.get());
+                        output.accept(ModBlocks.NETHER_URANIUM_ORE.get());
+
+
+                    }).build());
+
 
 
     public static void register(IEventBus eventBus) {

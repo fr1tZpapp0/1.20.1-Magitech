@@ -26,7 +26,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.TIN_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_TIN_ORE);
         blockWithItem(ModBlocks.NETHER_URANIUM_ORE);
+
+
         blockWithItem(ModBlocks.OBELISK);
+        blockWithItem(ModBlocks.RITUAL_STONE);
         blockWithItem(ModBlocks.ALCHEMICAL_IRON_BLOCK);
         blockWithItem(ModBlocks.BLOOD_DIAMOND_BLOCK);
 

@@ -115,6 +115,18 @@ public class ModBlocks {
             () -> new SaplingBlock(new RubberTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
 
+
+
+    public static final RegistryObject<Block> RITUAL_STONE = registerBlock("ritual_stone", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+
+
+
+
+
+
+
+
     // ===== END BLOCKS =====
 
 

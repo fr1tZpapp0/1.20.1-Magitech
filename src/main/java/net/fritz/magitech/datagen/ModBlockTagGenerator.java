@@ -35,6 +35,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.NETHER_URANIUM_ORE.get(),
 
                 ModBlocks.OBELISK.get(),
+                ModBlocks.RITUAL_STONE.get(),
                 ModBlocks.ALCHEMICAL_IRON_BLOCK.get(),
                 ModBlocks.BLOOD_DIAMOND_BLOCK.get()
         );
@@ -52,7 +53,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.TIN_BLOCK.get(),
                 ModBlocks.TIN_ORE.get(),
                 ModBlocks.DEEPSLATE_TIN_ORE.get(),
-                ModBlocks.ALCHEMICAL_IRON_BLOCK.get()
+                ModBlocks.ALCHEMICAL_IRON_BLOCK.get(),
+                ModBlocks.RITUAL_STONE.get()
         );
 
         this.tag(ModTags.Blocks.PAXEL_MINEABLE).addTags(

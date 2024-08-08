@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "magitech:alchemical_iron_ingot"
+    },
+    "B": {
+      "item": "magitech:blood_diamond"
+    },
+    "Q": {
+      "item": "magitech:smokey_quartz"
+    },
+    "R": {
+      "item": "magitech:ritual_stone"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    },
+    "V": {
+      "item": "magitech:blood_vial"
+    }
+  },
+  "pattern": [
+    "AVA",
+    "BSB",
+    "QRQ"
+  ],
+  "result": {
+    "item": "magitech:liliths_dagger"
+  },
+  "show_notification": true
+}

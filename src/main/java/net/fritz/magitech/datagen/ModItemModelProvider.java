@@ -62,6 +62,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BLOOD_DIAMOND_NUGGET);
 
 
+        simpleItem(ModItems.NECRONOMICON);
+        simpleItem(ModItems.SMOKEY_QUARTZ);
+        simpleItem(ModItems.BLOOD_VIAL);
+        simpleItem(ModItems.VILLAGER_FLESH);
+
+
 
         simpleItem(ModItems.SMURFBERRIES);
 
@@ -86,6 +92,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ENHANCED_WAND);
         handheldItem(ModItems.EXPERT_WAND);
         handheldItem(ModItems.MASTER_WAND);
+
+        handheldItem(ModItems.SACRIFICIAL_KNIFE);
+        handheldItem(ModItems.LILITHS_DAGGER);
+
 
         saplingItem(ModBlocks.RUBBER_SAPLING);
 
